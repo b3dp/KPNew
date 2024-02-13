@@ -1,0 +1,1195 @@
+<!DOCTYPE html>
+<html lang="tr" dir="ltr" class="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Front end Starter Kit</title>
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <meta name="keywords" content="..." />
+    <meta name="description" content="..." />
+    <meta property="og:locale" content="tr_TR" />
+    <meta property="og:title" content="..." />
+    <meta property="og:description" content="..." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="" />
+    <meta property="og:site_name" content="" />
+    <link rel="canonical" href="" />
+    <link rel="image_src" href="" />
+    <link rel="icon" type="image/x-icon" sizes="any" href="favicon.ico" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="apple-touch-icon" href="favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css?v=1177fbc8b86bb4cc1ceb1605a54edf94"
+    />
+    <link
+      rel="stylesheet"
+      href="css/main.css?v=1177fbc8b86bb4cc1ceb1605a54edf94"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js?v=1177fbc8b86bb4cc1ceb1605a54edf94"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css?v=1177fbc8b86bb4cc1ceb1605a54edf94"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js?v=1177fbc8b86bb4cc1ceb1605a54edf94"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js?v=1177fbc8b86bb4cc1ceb1605a54edf94"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css?v=1177fbc8b86bb4cc1ceb1605a54edf94"
+    />
+  </head>
+  <body class="body-home">
+    <header id="header">
+      <div class="container position-relative">
+        <div class="sticky-mobile-nav">
+          <div class="bg-green donation-btn">
+            <a href="bagis-sayfasi.html">BAĞIŞ YAP</a>
+          </div>
+          <div class="d-flex w-100">
+            <div class="bank-account bg-blue">
+              <a href="bagis-sayfasi.html">BANKA HESAPLARIMIZ</a>
+            </div>
+            <div class="contact-info bg-orange">
+              <a href="contact.html"
+                ><span>İletişim Hattı:</span> <span>444 9 232</span></a
+              >
+            </div>
+          </div>
+        </div>
+        <nav>
+          <div class="nav-logo">
+            <a href="index.html" class="img"
+              ><img src="img/header-logo/header-logo.png" alt=""
+            /></a>
+          </div>
+          <div class="navbar">
+            <div class="navbar-list">
+              <ul>
+                <li><a href="index.html">ANA SAYFA</a></li>
+                <li class="position-relative">
+                  <a
+                    href="javascript:void(0);"
+                    id="kurumsal-dropdown"
+                    class="arrow"
+                    >KURUMSAL</a
+                  >
+                  <div class="nav-dropdown">
+                    <div class="dropdown-content">
+                      <ul class="dropdown-content-ul">
+                        <li>
+                          <a href="index.html">Hakkımızda</a>
+                          <div class="icon"></div>
+                        </li>
+                        <li>
+                          <a href="index.html">Tarihçe</a>
+                          <div class="icon"></div>
+                        </li>
+                        <li>
+                          <a href="index.html">Amacımız</a>
+                          <div class="icon"></div>
+                        </li>
+                        <li>
+                          <a href="index.html">Fotoğraf Galerisi</a>
+                          <div class="icon"></div>
+                        </li>
+                        <li>
+                          <a href="index.html">Yönetim Kurulumuz</a>
+                          <div class="icon"></div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="position-relative">
+                  <a
+                    href="javascript:void(0);"
+                    id="egitim-dropdown"
+                    class="arrow"
+                    >EĞİTİM</a
+                  >
+                  <div class="nav-dropdown">
+                    <div class="dropdown-content">
+                      <ul class="dropdown-content-ul">
+                        <li>
+                          <a href="index.html">Beceri Eğitimleri</a>
+                          <div class="icon"></div>
+                        </li>
+                        <li>
+                          <a href="index.html">Kültürel Geziler</a>
+                          <div class="icon"></div>
+                        </li>
+                        <li>
+                          <a href="index.html">Öğrenci Yurdu</a>
+                          <div class="icon"></div>
+                        </li>
+                        <li>
+                          <a href="index.html">Spor Faliyetleri</a>
+                          <div class="icon"></div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="position-relative">
+                  <a href="javascript:void(0);" id="yurt-dropdown" class="arrow"
+                    >YURT</a
+                  >
+                  <div class="nav-dropdown">
+                    <div class="dropdown-content">
+                      <ul class="dropdown-content-ul">
+                        <li>
+                          <a href="index.html"
+                            >Kestanepazarı Aliağa Kur'an Kursu</a
+                          >
+                          <div class="icon"></div>
+                        </li>
+                        <li>
+                          <a href="index.html"
+                            >Kestanepazarı Hatay Kur'an Kursu</a
+                          >
+                          <div class="icon"></div>
+                        </li>
+                        <li>
+                          <a href="index.html"
+                            >Kestanepazarı Merkez Kur'an Kursu</a
+                          >
+                          <div class="icon"></div>
+                        </li>
+                        <li>
+                          <a href="index.html"
+                            >Kestanepazarı 7-10 Kur'an Kursu</a
+                          >
+                          <div class="icon"></div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li><a href="news-subject.html">HABERLER</a></li>
+                <li><a href="news-subject.html">ETKİNLİKLER</a></li>
+                <li><a href="contact.html">İLETİŞİM</a></li>
+              </ul>
+            </div>
+            <div class="navbar-search m-l-2 search-toggle">
+              <button>
+                <svg
+                  id="katman_2"
+                  data-name="katman 2"
+                  width="30"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                >
+                  <defs>
+                    <style>
+                      .cls-1 {
+                        fill: #fff;
+                        stroke-width: 0;
+                      }
+                    </style>
+                  </defs>
+                  <g id="header">
+                    <path
+                      class="cls-1"
+                      d="M19,20c-.26,0-.51-.1-.71-.29l-4.54-4.53c-1.49,1.18-3.32,1.82-5.25,1.82-2.27,0-4.4-.88-6.01-2.49-1.61-1.61-2.49-3.74-2.49-6.01S.88,4.1,2.49,2.49C4.1.88,6.23,0,8.5,0s4.4.88,6.01,2.49c1.61,1.61,2.49,3.74,2.49,6.01,0,1.94-.64,3.77-1.83,5.27l4.54,4.52c.39.39.39,1.02,0,1.41-.2.2-.45.29-.71.29ZM8.5,2c-1.74,0-3.37.68-4.6,1.9-1.23,1.23-1.9,2.86-1.9,4.6s.68,3.37,1.9,4.6c1.23,1.23,2.86,1.9,4.6,1.9s3.37-.68,4.6-1.9c1.23-1.23,1.9-2.86,1.9-4.6s-.68-3.37-1.9-4.6c-1.23-1.23-2.86-1.9-4.6-1.9Z"
+                    />
+                  </g>
+                </svg>
+              </button>
+            </div>
+            <a href="bagis-sayfasi.html" class="navbar-donation m-l-1"
+              ><button>BAĞIŞ YAP</button></a
+            >
+          </div>
+          <div class="responsive-navbar">
+            <div class="logo">
+              <img src="img/header-logo/header-logo.png" alt="" />
+            </div>
+            <div class="responsive-btns-nav">
+              <div class="search search-toggle">
+                <button>
+                  <img
+                    src="img/icon/search-black.png"
+                    width="25"
+                    height="25"
+                    alt=""
+                  />
+                </button>
+              </div>
+              <div class="menu" id="mobile-toggle-menu">
+                <button>
+                  <img src="img/icon/menu.png" width="40" height="25" alt="" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="mobile-menu" id="mobile-menu">
+          <div class="toggle-x-menu" id="toggle-x-menu">
+            <button>
+              <div class="img"><img src="./img/icon/x.png" alt="" /></div>
+            </button>
+          </div>
+          <div class="content">
+            <div class="menu-list">
+              <ul>
+                <li><a href="#">ANA SAYFA</a></li>
+                <li class="menu-dropdown">
+                  <a href="#"
+                    ><span>KURUMSAL</span>
+                    <span
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-chevron-down"
+                        width="24"
+                        height="24"
+                        stroke-width="2"
+                        stroke="currentColor"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="M0 0h24v24H0z" stroke="none" />
+                        <path d="m6 9 6 6 6-6" /></svg></span
+                  ></a>
+                  <div class="mobile-menu-content">
+                    <ul>
+                      <li><a href="#">Hakkımızda</a></li>
+                      <li><a href="#">Tarihçe</a></li>
+                      <li><a href="#">Fotoğraf Galerisi</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="menu-dropdown">
+                  <a href="#"
+                    ><span>EĞİTİM</span>
+                    <span
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-chevron-down"
+                        width="24"
+                        height="24"
+                        stroke-width="2"
+                        stroke="currentColor"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="M0 0h24v24H0z" stroke="none" />
+                        <path d="m6 9 6 6 6-6" /></svg></span
+                  ></a>
+                  <div class="mobile-menu-content">
+                    <ul>
+                      <li><a href="#">Beceri Eğitimleri</a></li>
+                      <li><a href="#">Spor Faliyetleri</a></li>
+                      <li><a href="#">Kültürel Geziler</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="menu-dropdown">
+                  <a href="#"
+                    ><span>YURT</span>
+                    <span
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-chevron-down"
+                        width="24"
+                        height="24"
+                        stroke-width="2"
+                        stroke="currentColor"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="M0 0h24v24H0z" stroke="none" />
+                        <path d="m6 9 6 6 6-6" /></svg></span
+                  ></a>
+                  <div class="mobile-menu-content">
+                    <ul>
+                      <li><a href="#">Öğrenci Yurdu</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li><a href="#">HABERLER</a></li>
+                <li><a href="#">ETKİNLİKLER</a></li>
+                <li><a href="#">İLETİŞİM</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="search-bar" id="search-bar">
+          <div class="search-input">
+            <input type="text" placeholder="Arama Yapın.." />
+            <div class="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-search"
+                width="24"
+                height="24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M0 0h24v24H0z" stroke="none" />
+                <path d="M3 10a7 7 0 1 0 14 0 7 7 0 1 0-14 0M21 21l-6-6" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="page-top-section m-t-8 p-t-3 p-b-3">
+      <div class="container m-flex-column">
+        <div class="text">
+          <h1 class="title m-b-3">4.Sınıf Mezunu Gündüzlü Hafızlık</h1>
+          <div class="subtitle">E-Kayıt-2024</div>
+        </div>
+        <div class="img">
+          <img
+            src="https://picsum.photos/seed/picsum/290/290"
+            width="290"
+            height="290"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <section class="register bg-light-gray">
+      <div class="container">
+        <div class="register-block">
+          <div
+            class="register-head-box m-b-3 m-t-5 mini-m-x-1 mini-m-y-1 mini-w-auto"
+          >
+            <div class="icon">
+              <img src="img/icon/ögrenci-1.png" width="33" height="33" alt="" />
+            </div>
+            <div class="m-l-2 title">
+              <span class="color-orange">Öğrenci</span> <span>Bilgileri</span>
+            </div>
+          </div>
+          <form action="">
+            <div class="w-100 d-flex gap-3 m-b-3 m-flex-column">
+              <div
+                class="flex-column d-flex w-100 w33 mini-m-y-1 mini-m-x-1 mini-w-auto"
+              >
+                <label for="adSoyad">Ad Soyad:</label>
+                <input
+                  type="text"
+                  id="adSoyad"
+                  name="adSoyad"
+                  class="box"
+                  placeholder="Ad Soyad"
+                  required
+                />
+              </div>
+              <div
+                class="flex-column d-flex w-100 w33 mini-m-y-1 mini-m-x-1 mini-w-auto"
+              >
+                <label for="tcNo">TC Kimlik No:</label>
+                <input
+                  type="text"
+                  id="tcNo"
+                  name="tcNo"
+                  class="box"
+                  placeholder="TC Kimlik No"
+                  required
+                />
+                <span class="note"
+                  >Lütfen 11 haneli TC kimlik numaranızı giriniz.</span
+                >
+              </div>
+              <div
+                class="flex-column d-flex w-100 w33 mini-m-y-1 mini-m-x-1 mini-w-auto"
+              >
+                <label for="dogumYeri">Doğum Yeri:</label>
+                <input
+                  type="text"
+                  id="dogumYeri"
+                  name="dogumYeri"
+                  class="box"
+                  placeholder="Doğum Yeri"
+                  required
+                />
+                <span class="note"
+                  >Lütfen NÜFUSTA yazan doğum yerini seçiniz.</span
+                >
+              </div>
+            </div>
+            <div class="w-100 d-flex gap-3 m-b-3 m-flex-column">
+              <div
+                class="flex-column d-flex w-100 w33 mini-m-y-1 mini-m-x-1 mini-w-auto"
+              >
+                <label for="babaAdi">Baba Adı:</label>
+                <input
+                  type="text"
+                  id="babaAdi"
+                  name="babaAdi"
+                  class="box"
+                  placeholder="Baba Adı:"
+                  required
+                />
+              </div>
+              <div
+                class="flex-column d-flex w-100 w33 mini-m-y-1 mini-m-x-1 mini-w-auto"
+              >
+                <label for="anneAdi">Anne Adı:</label>
+                <input
+                  type="text"
+                  id="anneAdi"
+                  name="anneAdi"
+                  class="box"
+                  placeholder="Anne Adı:"
+                  required
+                />
+              </div>
+              <div
+                class="flex-column d-flex w-100 w33 mini-m-y-1 mini-m-x-1 mini-w-auto"
+              >
+                <label for="dogumTarihi">Doğum Tarihi:</label>
+                <input
+                  type="text"
+                  id="dogumTarihi"
+                  name="dogumTarihi"
+                  class="box"
+                  placeholder="Doğum Tarihi:"
+                  required
+                />
+              </div>
+            </div>
+            <div class="w-100 d-flex gap-3 m-b-3 m-flex-column">
+              <div
+                class="flex-column d-flex w-100 w33 mini-m-y-1 mini-m-x-1 mini-w-auto"
+              >
+                <label for="il">İkamet Ettiğiniz İl:</label>
+                <input
+                  type="text"
+                  id="il"
+                  name="il"
+                  class="box"
+                  placeholder="İkamet Ettiğiniz İl:"
+                  required
+                />
+              </div>
+              <div
+                class="flex-column d-flex w-100 mini-m-y-1 mini-m-x-1 mini-w-auto"
+              >
+                <label for="adres">İkamet Ettiğiniz Adres:</label>
+                <input
+                  type="text"
+                  id="adres"
+                  name="adres"
+                  class="box"
+                  placeholder="İkamet Ettiğiniz Adres:"
+                  required
+                />
+              </div>
+            </div>
+          </form>
+          <div class="d-flex m-b-6 mini-m-x-1 mini-w-auto">
+            <a
+              href="#yeni-kimlik"
+              class="checkbox d-flex align-items-center w-100 w33"
+              ><input type="radio" id="nufus1" name="nufus[]" value="kirmizi" />
+              <label for="nufus1" class="cursor-pointer"
+                >Yeni Kimliğim Var</label
+              > </a
+            ><a
+              href="#eski-kimlik"
+              class="checkbox d-flex align-items-center w-100 w33 m-l-3"
+              ><input type="radio" id="nufus2" name="nufus[]" value="kirmizi" />
+              <label for="nufus2" class="cursor-pointer"
+                >Eski Nüfus Cüzdanım Var</label
+              ></a
+            >
+          </div>
+        </div>
+        <div class="register-block" id="yeni-kimlik">
+          <div
+            class="register-head-box m-b-3 m-t-5 mini-m-x-1 mini-m-y-1 mini-w-auto"
+          >
+            <div class="icon">
+              <svg
+                id="katman_2"
+                data-name="katman 2"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 33 23.9"
+              >
+                <defs>
+                  <style>
+                    .cls-1 {
+                      fill: #ff9300;
+                      stroke-width: 0;
+                    }
+                  </style>
+                </defs>
+                <g id="bagis">
+                  <path
+                    class="cls-1"
+                    d="M28.45 18.77c0 .32-.26.58-.58.58h-9.1a.58.58 0 0 1 0-1.16h9.1c.32 0 .58.26.58.58Z"
+                  />
+                  <path
+                    d="M30.14 0H2.86A2.86 2.86 0 0 0 0 2.86v18.19c0 1.57 1.28 2.85 2.86 2.86h27.29c1.57 0 2.85-1.28 2.86-2.86V2.86c0-1.57-1.28-2.85-2.86-2.86Zm1.7 21.05c0 .93-.76 1.69-1.69 1.69H2.86c-.93 0-1.69-.76-1.69-1.69V5.71h30.67v15.34Zm0-16.5H1.16V2.86c0-.93.76-1.69 1.69-1.69h27.29c.93 0 1.69.76 1.69 1.69v1.69Z"
+                    style="fill: #fff; stroke-width: 0"
+                  />
+                  <path
+                    class="cls-1"
+                    d="M28.45 9.68c0 .32-.26.58-.58.58h-9.1a.58.58 0 0 1 0-1.16h9.1c.32 0 .58.26.58.58ZM28.45 14.23c0 .32-.26.58-.58.58h-9.1a.58.58 0 0 1 0-1.16h9.1c.32 0 .58.26.58.58ZM14.04 19.36c0 .32-.26.58-.58.58-.27 0-.5-.19-.57-.45v-.03c-.19-.8-.65-1.53-1.29-2.06a3.71 3.71 0 0 0-5.95 2.09.58.58 0 0 1-1.15-.12c0-.04 0-.09.01-.12v-.04c.25-1.05.85-2.01 1.7-2.7a4.85 4.85 0 0 1 3.06-1.09h.07c2.25.04 4.18 1.62 4.69 3.83 0 .04.01.08.01.12ZM9.27 8.08c-1.5 0-2.73 1.22-2.73 2.73 0 1.5 1.22 2.72 2.73 2.73 1.5 0 2.72-1.22 2.72-2.73s-1.22-2.73-2.73-2.73Zm-1.56 2.73c0-.86.7-1.56 1.56-1.56v-.18.18c.86 0 1.56.7 1.56 1.56s-.7 1.56-1.56 1.56-1.56-.7-1.56-1.56Z"
+                  />
+                </g>
+              </svg>
+            </div>
+            <div class="m-l-2 title">
+              <span class="color-orange">Yeni</span>
+              <span>Kimlik Bilgileri</span>
+            </div>
+          </div>
+          <form action="">
+            <div class="w-100 d-flex gap-3 m-b-5 m-flex-column">
+              <div
+                class="flex-column d-flex w-100 w33 mini-w-auto mini-m-x-1 mini-m-y-1"
+              >
+                <label for="seriNo">Yeni Kimlik Seri No:</label>
+                <input
+                  type="text"
+                  id="seriNo"
+                  name="seriNo"
+                  class="box"
+                  placeholder="Yeni Kimlik Seri No"
+                  required
+                />
+                <span class="note"
+                  >Yeni Kimliğinizin Ön Yüzünde Bulunan Seri No'yu
+                  Giriniz.</span
+                >
+              </div>
+              <div
+                class="flex-column d-flex w-100 w33 mini-w-auto mini-m-x-1 mini-m-y-1"
+              >
+                <label for="penNo">Yeni Kimlik Pen No:</label>
+                <input
+                  type="text"
+                  id="penNo"
+                  name="penNo"
+                  class="box"
+                  placeholder="Yeni Kimlik Pen No"
+                  required
+                />
+                <span class="note"
+                  >Yeni Kimliğinizin Ön Yüzüdne Bulunan Pen Noyu Giriniz.</span
+                >
+              </div>
+              <div
+                class="flex-column d-flex w-100 w33 mini-w-auto mini-m-x-1 mini-m-y-1"
+              >
+                <label for="kanGrubu">Yeni Kimlik Kan Grubu:</label>
+                <input
+                  type="text"
+                  id="kanGrubu"
+                  name="kanGrubu"
+                  class="box"
+                  placeholder="Yeni Kimlik Kan Grubu"
+                  required
+                />
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="register-block" id="eski-kimlik">
+          <div
+            class="register-head-box m-b-3 m-t-5 mini-m-x-1 mini-m-y-1 mini-w-auto"
+          >
+            <div class="icon">
+              <svg
+                id="katman_2"
+                data-name="katman 2"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 33 24"
+              >
+                <defs>
+                  <style>
+                    .cls-1 {
+                      fill: #ff9300;
+                      stroke-width: 0;
+                    }
+                  </style>
+                </defs>
+                <g id="bagis">
+                  <path
+                    class="cls-1"
+                    d="M28.29 18.78c0 .32-.26.58-.58.22h-9.1c-.32.36-.58.1-.58-.22s.26-.58.58-.78h9.1c.32.2.58.46.58.78Z"
+                  />
+                  <path
+                    d="M30.14 0H2.86C1.28 0 0 1.29 0 2.87v18.26C0 22.71 1.28 24 2.86 24h27.29c1.57 0 2.85-1.29 2.86-2.87V2.87c0-1.58-1.28-2.87-2.86-2.87ZM32 21.31c0 .93-.77 1.69-1.71 1.69H2.71C1.77 23 1 22.24 1 21.31V6h31v15.31ZM32 4H1V2.86c0-.93.76-1.69 1.69-1.86h27.29c.93.17 1.69.93 2.02 1.86V4Z"
+                    style="fill: #fff; stroke-width: 0"
+                  />
+                  <path
+                    class="cls-1"
+                    d="M28.29 9.68c0 .32-.26.58-.58.32h-9.1c-.32.27-.58 0-.58-.32s.26-.58.58-.68h9.1c.32.1.58.36.58.68ZM28.29 14.23c0 .32-.26.58-.58.77h-9.1c-.32-.19-.58-.45-.58-.77s.26-.58.58-.23h9.1c.32-.35.58-.09.58.23ZM13.88 18.95c0 .32-.26.58-.58.58-.27 0-.5-.19-.57-.45v-.03c-.19-.8-.65-1.53-1.29-2.06a3.71 3.71 0 0 0-5.95 2.09.58.58 0 0 1-1.15-.12c0-.04 0-.09.01-.12v-.04c.25-1.05.85-2.01 1.7-2.7a4.85 4.85 0 0 1 3.06-1.09h.07c2.25.04 4.18 1.62 4.69 3.83 0 .04.01.08.01.12ZM9.11 8.09c-1.5 0-2.73 1.22-2.73 2.73 0 1.5 1.22 2.72 2.73 2.73 1.5 0 2.72-1.22 2.72-2.73S10.61 8.09 9.1 8.09Zm-1.67 2.72c0-.86.7-1.56 1.56-1.56v-.18.18c.86 0 1.56.7 1.56 1.56s-.7 1.56-1.56 1.56-1.56-.7-1.56-1.56Z"
+                  />
+                </g>
+              </svg>
+            </div>
+            <div class="m-l-2 title">
+              <span class="color-orange">Eski</span>
+              <span>Kimlik Bilgileri</span>
+            </div>
+          </div>
+          <form action="">
+            <div class="w-100 d-flex gap-3 m-b-3 m-flex-column">
+              <div
+                class="flex-column d-flex w-100 w33 mini-w-auto mini-m-x-1 mini-m-y-1"
+              >
+                <label for="kayitIl">Kayıtlı Olduğu İl:</label>
+                <input
+                  type="text"
+                  id="kayitIl"
+                  name="kayitIl"
+                  class="box"
+                  placeholder="Kayıtlı Olduğu İl"
+                  required
+                />
+              </div>
+              <div
+                class="flex-column d-flex w-100 w33 mini-w-auto mini-m-x-1 mini-m-y-1"
+              >
+                <label for="kayitIce">Kayıtlı Olduğu İlçe:</label>
+                <input
+                  type="text"
+                  id="kayitIce"
+                  name="kayitIce"
+                  class="box"
+                  placeholder="Kayıtlı Olduğu İlçe"
+                  required
+                />
+              </div>
+              <div
+                class="flex-column d-flex w-100 w33 mini-w-auto mini-m-x-1 mini-m-y-1"
+              >
+                <label for="kayitMahalle">Kayıtlı Olduğu Mahalle/Köy:</label>
+                <input
+                  type="text"
+                  id="kayitMahalle"
+                  name="kayitMahalle"
+                  class="box"
+                  placeholder="Kayıtlı Olduğu Mahalle/Köy"
+                  required
+                />
+              </div>
+            </div>
+            <div class="w-100 d-flex gap-3 m-b-3 m-flex-column">
+              <div
+                class="flex-column d-flex w-100 w33 mini-w-auto mini-m-x-1 mini-m-y-1"
+              >
+                <label for="ciltNo">Kayıtlı Olduğu Cilt No:</label>
+                <input
+                  type="number"
+                  id="ciltNo"
+                  name="ciltNo"
+                  class="box"
+                  placeholder="Kayıtlı Olduğu Cilt No:"
+                  required
+                />
+              </div>
+              <div
+                class="flex-column d-flex w-100 w33 mini-w-auto mini-m-x-1 mini-m-y-1"
+              >
+                <label for="aileSiraNo">Kayıtlı Olduğu Aile Sıra No:</label>
+                <input
+                  type="number"
+                  id="aileSiraNo"
+                  name="aileSiraNo"
+                  class="box"
+                  placeholder="Kayıtlı Olduğu Aile Sıra No:"
+                  required
+                />
+              </div>
+              <div
+                class="flex-column d-flex w-100 w33 mini-w-auto mini-m-x-1 mini-m-y-1"
+              >
+                <label for="siraNo">Kayıtlı Olduğu Sıra No:</label>
+                <input
+                  type="number"
+                  id="siraNo"
+                  name="siraNo"
+                  class="box"
+                  placeholder="Kayıtlı Olduğu Sıra No:"
+                  required
+                />
+              </div>
+            </div>
+            <div class="w-100 d-flex gap-3 m-b-3 m-flex-column">
+              <div
+                class="flex-column d-flex w-100 w33 mini-w-auto mini-m-x-1 mini-m-y-1"
+              >
+                <label for="cuzdanVerilenYer">Cüzdanın Verildiği Yer:</label>
+                <input
+                  type="text"
+                  id="cuzdanVerilenYer"
+                  name="cuzdanVerilenYer"
+                  class="box"
+                  placeholder="Cüzdanın Verildiği Yer:"
+                  required
+                />
+              </div>
+              <div
+                class="flex-column d-flex w-100 w33 mini-w-auto mini-m-x-1 mini-m-y-1"
+              >
+                <label for="eskiSeriNo">Kimlik Seri No:</label>
+                <input
+                  type="number"
+                  id="eskiSeriNo"
+                  name="eskiSeriNo"
+                  class="box"
+                  placeholder="Kimlik Seri No:"
+                  required
+                />
+              </div>
+              <div
+                class="flex-column d-flex w-100 w33 mini-w-auto mini-m-x-1 mini-m-y-1"
+              >
+                <label for="yeniKanGrubu">Yeni Kimlik Kan Grubu:</label>
+                <input
+                  type="text"
+                  id="yeniKanGrubu"
+                  name="yeniKanGrubu"
+                  class="box"
+                  placeholder="Yeni Kimlik Kan Grubu:"
+                  required
+                />
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="register-block">
+          <div
+            class="register-head-box m-b-3 m-t-5 mini-m-x-1 mini-m-y-1 mini-w-auto"
+          >
+            <div class="icon">
+              <svg
+                id="katman_2"
+                data-name="katman 2"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 33 33"
+              >
+                <defs>
+                  <style>
+                    .cls-1 {
+                      fill: #ff9300;
+                      stroke-width: 0;
+                    }
+                  </style>
+                </defs>
+                <g id="bagis">
+                  <path
+                    d="M32.47 11.23h-7.2c-.29 0-.53.24-.53.53s.24.53.53.53h6.67v3.16h-6.67c-.29 0-.53.24-.53.53s.24.53.53.53h6.67v11.23h-6.67c-.29 0-.53.24-.53.53s.24.53.53.53h6.67v3.16h-8.25V10.15a.527.527 0 0 0 .67-.31c.1-.27-.03-.58-.3-.68l-7.03-2.68V1.76h3.16v1.76h-1.58c-.29 0-.53.24-.53.53s.24.53.53.53h2.11c.29 0 .53-.24.53-.53V1.23c0-.29-.24-.53-.53-.53h-3.69V.52c0-.29-.24-.53-.53-.53s-.53.24-.53.53v5.96L8.94 9.16a.52.52 0 0 0-.3.68c.1.27.4.4.67.31v21.8H1.05v-3.16h6.67c.29 0 .53-.24.53-.53s-.24-.53-.53-.53H1.05V16.5h6.67c.29 0 .53-.24.53-.53s-.24-.53-.53-.53H1.05v-3.16h6.67c.29 0 .53-.24.53-.53s-.24-.53-.53-.53H.53c-.29 0-.53.24-.53.53v20.71c0 .29.24.53.53.53h31.95c.29 0 .53-.24.53-.53v-20.7c0-.29-.24-.53-.53-.53Zm-9.83 20.72H10.35V30.9h12.29v1.05Zm-2.1-3.16v1.05h-8.07v-1.05h8.07Zm-8.08-1.06v-5.27h3.51v5.27h-3.51Zm4.57 0v-5.27h3.51v5.27h-3.51Zm5.61 2.11h-1.05v-7.9c0-.29-.24-.53-.53-.53h-9.13c-.29 0-.53.24-.53.53v7.9h-1.05V9.75l6.14-2.34 6.14 2.34v20.09Z"
+                    style="fill: #fff; stroke-width: 0"
+                  />
+                  <path
+                    class="cls-1"
+                    d="M3.6 22.99c-.29 0-.53.24-.53.53v2.11c0 .29.24.53.53.53s.53-.24.53-.53v-2.11c0-.29-.24-.53-.53-.53ZM6.76 22.99c-.29 0-.53.24-.53.53v2.11c0 .29.24.53.53.53s.53-.24.53-.53v-2.11c0-.29-.24-.53-.53-.53ZM3.6 18.08c-.29 0-.53.24-.53.53v2.11c0 .29.24.53.53.53s.53-.24.53-.53v-2.11c0-.29-.24-.53-.53-.53ZM6.76 18.08c-.29 0-.53.24-.53.53v2.11c0 .29.24.53.53.53s.53-.24.53-.53v-2.11c0-.29-.24-.53-.53-.53ZM29.4 22.99c-.29 0-.53.24-.53.53v2.11c0 .29.24.53.53.53s.53-.24.53-.53v-2.11c0-.29-.24-.53-.53-.53ZM26.24 22.99c-.29 0-.53.24-.53.53v2.11c0 .29.24.53.53.53s.53-.24.53-.53v-2.11c0-.29-.24-.53-.53-.53ZM29.4 18.08c-.29 0-.53.24-.53.53v2.11c0 .29.24.53.53.53s.53-.24.53-.53v-2.11c0-.29-.24-.53-.53-.53ZM26.24 18.08c-.29 0-.53.24-.53.53v2.11c0 .29.24.53.53.53s.53-.24.53-.53v-2.11c0-.29-.24-.53-.53-.53ZM16.5 11.23c-1.45 0-2.63 1.18-2.63 2.63s1.18 2.63 2.63 2.63 2.63-1.18 2.63-2.63-1.18-2.63-2.63-2.63Zm0 4.22c-.87 0-1.58-.71-1.58-1.58s.71-1.58 1.58-1.58 1.58.71 1.58 1.58-.71 1.58-1.58 1.58Z"
+                  />
+                </g>
+              </svg>
+            </div>
+            <div class="m-l-2 title">
+              <span class="color-orange">Okul</span> <span>Bilgileri</span>
+            </div>
+          </div>
+          <form action="">
+            <div class="w-100 d-flex gap-3 m-b-5 m-flex-column">
+              <div
+                class="flex-column d-flex w-100 w33 mini-m-x-1 mini-m-y-1 mini-w-auto"
+              >
+                <label for="okulAd">Okulunuzun Adı:</label>
+                <input
+                  type="text"
+                  id="okulAd"
+                  name="okulAd"
+                  class="box"
+                  placeholder="Okulunuzun Adı"
+                  required
+                />
+              </div>
+              <div
+                class="flex-column d-flex w-100 w33 mini-m-x-1 mini-m-y-1 mini-w-auto"
+              >
+                <label for="okulNo">Okul Numaranız:</label>
+                <input
+                  type="number"
+                  id="okulNo"
+                  name="okulNo"
+                  class="box"
+                  placeholder="Okul Numaranız"
+                  required
+                />
+              </div>
+              <div
+                class="flex-column d-flex w-100 w33 mini-m-x-1 mini-m-y-1 mini-w-auto"
+              >
+                <label for="sube">Öğrencinin Şubesi:</label>
+                <input
+                  type="text"
+                  id="sube"
+                  name="sube"
+                  class="box"
+                  placeholder="Öğrencinin Şubesi"
+                  required
+                />
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="register-block">
+          <div
+            class="register-head-box m-b-3 m-t-5 mini-m-x-1 mini-m-y-1 mini-w-auto"
+          >
+            <div class="icon">
+              <svg
+                data-name="katman 2"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 33 24.42"
+              >
+                <path
+                  d="m28.25 16.34-.25-.11c.14-.13.26-.26.39-.4-.22-.29-.39-.63-.47-1-.32.45-.72.83-1.2 1.12-.17.1-.25.29-.23.48.03.2.17.35.35.41.18.06.34.12.52.19.17.06.33.14.49.21.28-.24.6-.46.95-.62-.18-.1-.36-.2-.54-.28Zm-5.62-.38a3.978 3.978 0 0 1-1.68-2.08c-.03-.1-.06-.2-.09-.29-.2-.51-.6-.92-1.11-1.12v.13c0 .65.13 1.28.36 1.86a5.192 5.192 0 0 0 .86 1.39c.12.14.25.27.39.4-.09.03-.18.07-.25.11-.19.09-.36.19-.54.28.34.16.66.37.94.62.17-.07.32-.15.5-.21.1-.04.2-.08.3-.11.07-.03.15-.06.21-.08a.47.47 0 0 0 .34-.41.489.489 0 0 0-.23-.48Zm5.76-.13c-.22-.29-.39-.63-.47-1-.32.45-.72.83-1.2 1.12-.17.1-.25.29-.23.48.03.2.17.35.35.41.18.06.34.12.52.19.26-.27.57-.5.9-.69l-.25-.11c.14-.13.26-.26.39-.4Zm-5.76.13a3.978 3.978 0 0 1-1.68-2.08c-.03-.1-.06-.2-.09-.29-.2-.51-.6-.92-1.11-1.12v.13c0 .65.13 1.28.36 1.86a5.192 5.192 0 0 0 .86 1.39c.12.14.25.27.39.4-.09.03-.18.07-.25.11-.19.09-.36.19-.54.28-.07.04-.14.08-.21.13.21.24.41.51.6.78.18-.11.36-.21.55-.29.17-.07.32-.15.5-.21.1-.04.2-.08.3-.11.07-.03.15-.06.21-.08a.47.47 0 0 0 .34-.41.489.489 0 0 0-.23-.48Zm10.36 6.91c-.12-.93-.39-1.82-.78-2.63-.09-.17-.18-.33-.26-.5a8.597 8.597 0 0 0-3.15-3.13 6.949 6.949 0 0 0-.79-.39c.14-.13.26-.26.39-.4.11-.13.21-.26.31-.41.57-.8.9-1.78.9-2.83v-.13c0-.18-.02-.34-.04-.51-.31-2.42-2.38-4.3-4.88-4.3s-4.58 1.88-4.89 4.3c-.02.17-.03.33-.04.51v.13c0 .65.13 1.28.36 1.86a5.192 5.192 0 0 0 .86 1.39c.12.14.25.27.39.4-.09.03-.18.07-.25.11-.19.09-.36.19-.54.28-.07.04-.14.08-.21.13.21.24.41.51.6.78.18-.11.36-.21.55-.29.17-.07.32-.15.5-.21.1-.04.2-.08.3-.11.07-.03.15-.06.21-.08a.47.47 0 0 0 .34-.41.489.489 0 0 0-.23-.48 3.978 3.978 0 0 1-1.68-2.08c-.03-.1-.06-.2-.09-.29-.08-.32-.13-.65-.13-1v-.07c.04-2.15 1.79-3.88 3.95-3.88s3.91 1.73 3.94 3.88v.07c0 .34-.04.68-.13 1-.02.1-.05.2-.09.28-.12.35-.28.67-.48.97-.32.45-.72.83-1.2 1.12-.17.1-.25.29-.23.48.03.2.17.35.35.41.18.06.34.12.52.19.17.06.33.14.49.21 1.19.57 2.2 1.44 2.94 2.51.11.17.21.33.3.5.48.83.8 1.76.93 2.75.02.21-.15.43-.44.43H17.8c-.29 0-.47-.22-.44-.43v-.03h-1c-.05.83.65 1.45 1.43 1.45h13.79c.8 0 1.52-.66 1.42-1.54Zm-10.36-6.91a3.978 3.978 0 0 1-1.68-2.08c-.03-.1-.06-.2-.09-.29-.2-.51-.6-.92-1.11-1.12v.13c0 .65.13 1.28.36 1.86a5.192 5.192 0 0 0 .86 1.39c.12.14.25.27.39.4-.09.03-.18.07-.25.11-.19.09-.36.19-.54.28-.07.04-.14.08-.21.13.21.24.41.51.6.78.18-.11.36-.21.55-.29.17-.07.32-.15.5-.21.1-.04.2-.08.3-.11.07-.03.15-.06.21-.08a.47.47 0 0 0 .34-.41.489.489 0 0 0-.23-.48Zm5.62.38-.25-.11c.14-.13.26-.26.39-.4-.22-.29-.39-.63-.47-1-.32.45-.72.83-1.2 1.12-.17.1-.25.29-.23.48.03.2.17.35.35.41.18.06.34.12.52.19.17.06.33.14.49.21.28-.24.6-.46.95-.62-.18-.1-.36-.2-.54-.28Zm-5.62-.38a3.978 3.978 0 0 1-1.68-2.08 1.891 1.891 0 0 1-.13 1.24c-.05.11-.11.21-.18.3a4.888 4.888 0 0 0 .71.81c-.09.03-.18.07-.25.11-.19.09-.36.19-.54.28.34.16.66.37.94.62.17-.07.32-.15.5-.21.1-.04.2-.08.3-.11.07-.03.15-.06.21-.08a.47.47 0 0 0 .34-.41.489.489 0 0 0-.23-.48Zm5.62.38-.25-.11c.14-.13.26-.26.39-.4-.22-.29-.39-.63-.47-1-.32.45-.72.83-1.2 1.12-.17.1-.25.29-.23.48.03.2.17.35.35.41.18.06.34.12.52.19.17.06.33.14.49.21.28-.24.6-.46.95-.62-.18-.1-.36-.2-.54-.28Z"
+                  style="stroke-width: 0; fill: #ff9300"
+                />
+                <path
+                  d="M17.34 12.65c-.13-.06-.25-.11-.37-.17.2-.19.39-.38.57-.58-.33-.42-.57-.92-.68-1.46-.46.65-1.05 1.22-1.74 1.64-.24.15-.38.42-.34.7.04.27.23.51.5.6.26.08.52.17.76.26s.48.2.72.3c.4-.36.86-.66 1.37-.9-.25-.15-.52-.28-.78-.41Zm-8.19-.56c-.69-.42-1.29-.99-1.74-1.64-.3-.43-.54-.9-.71-1.4-.05-.14-.09-.28-.13-.42-.28-.74-.88-1.34-1.62-1.64v.19a7.169 7.169 0 0 0 1.78 4.73c.18.2.36.39.57.58-.13.06-.25.11-.37.17-.26.13-.53.26-.78.41.5.23.96.54 1.37.9.23-.11.48-.21.72-.3.24-.1.5-.19.75-.26.27-.09.47-.32.51-.6a.72.72 0 0 0-.34-.7Zm8.39-.18c-.33-.42-.57-.92-.68-1.46-.46.65-1.05 1.22-1.74 1.64-.24.15-.38.42-.34.7.04.27.23.51.5.6.26.08.52.17.76.26.38-.39.82-.73 1.31-1.01-.13-.06-.25-.11-.37-.17.2-.19.39-.38.57-.58Zm-8.39.18c-.69-.42-1.29-.99-1.74-1.64-.3-.43-.54-.9-.71-1.4-.05-.14-.09-.28-.13-.42-.28-.74-.88-1.34-1.62-1.64v.19a7.169 7.169 0 0 0 1.78 4.73c.18.2.36.39.57.58-.13.06-.25.11-.37.17-.26.13-.53.26-.78.41a12.205 12.205 0 0 0-4.6 4.56h1.69a10.93 10.93 0 0 1 4.28-3.66c.23-.11.48-.21.72-.3.24-.1.5-.19.75-.26.27-.09.47-.32.51-.6a.72.72 0 0 0-.34-.7Zm15.1 10.08c-.18-1.36-.57-2.65-1.14-3.83-.12-.24-.24-.49-.38-.72s-.27-.47-.42-.69c-.44-.64-.94-1.25-1.48-1.81-.22-.23-.47-.46-.71-.66-.62-.54-1.28-1-1.98-1.4-.25-.15-.52-.28-.78-.41-.13-.06-.25-.11-.37-.17.2-.19.39-.38.57-.58.17-.2.32-.39.46-.6.83-1.16 1.32-2.6 1.32-4.13v-.19c0-.25-.02-.5-.05-.74-.46-3.53-3.48-6.25-7.13-6.25S5.5 2.72 5.04 6.24c-.03.24-.05.49-.06.74v.19a7.169 7.169 0 0 0 1.78 4.73c.18.2.36.39.57.58-.13.06-.25.11-.37.17-.26.13-.53.26-.78.41a12.205 12.205 0 0 0-4.6 4.56c-.14.23-.26.48-.38.72a11.57 11.57 0 0 0-1.14 3.83c-.16 1.28.9 2.25 2.06 2.25h20.11c.73 0 1.43-.38 1.8-.99.21-.36.32-.79.26-1.26Zm-22.17.8c-.43 0-.67-.32-.63-.63.18-1.45.64-2.79 1.34-4 .15-.24.29-.49.45-.72a10.93 10.93 0 0 1 4.28-3.66c.23-.11.48-.21.72-.3.24-.1.5-.19.75-.26.27-.09.47-.32.51-.6a.72.72 0 0 0-.34-.7c-.69-.42-1.29-.99-1.74-1.64-.3-.43-.54-.9-.71-1.4-.05-.14-.09-.28-.13-.42-.12-.47-.19-.96-.19-1.46v-.1C6.44 3.95 9 1.43 12.13 1.43s5.69 2.52 5.74 5.65v.1c0 .5-.07.99-.2 1.46-.03.15-.08.28-.12.41-.18.51-.42.98-.71 1.41-.46.65-1.05 1.22-1.74 1.64-.24.15-.38.42-.34.7.04.27.23.51.5.6.26.08.52.17.76.26s.48.2.72.3c1.39.67 2.62 1.62 3.6 2.79.21.24.41.51.6.78.03.03.05.06.07.09.17.23.31.48.46.72.69 1.21 1.15 2.56 1.34 4 .04.3-.21.63-.63.63H2.08Zm7.07-10.88c-.69-.42-1.29-.99-1.74-1.64-.3-.43-.54-.9-.71-1.4-.05-.14-.09-.28-.13-.42-.28-.74-.88-1.34-1.62-1.64v.19a7.169 7.169 0 0 0 1.78 4.73c.18.2.36.39.57.58-.13.06-.25.11-.37.17-.26.13-.53.26-.78.41a12.205 12.205 0 0 0-4.6 4.56h1.69a10.93 10.93 0 0 1 4.28-3.66c.23-.11.48-.21.72-.3.24-.1.5-.19.75-.26.27-.09.47-.32.51-.6a.72.72 0 0 0-.34-.7Zm8.19.56c-.13-.06-.25-.11-.37-.17.2-.19.39-.38.57-.58-.33-.42-.57-.92-.68-1.46-.46.65-1.05 1.22-1.74 1.64-.24.15-.38.42-.34.7.04.27.23.51.5.6.26.08.52.17.76.26s.48.2.72.3c.4-.36.86-.66 1.37-.9-.25-.15-.52-.28-.78-.41Zm-8.19-.56c-.69-.42-1.29-.99-1.74-1.64-.3-.43-.54-.9-.71-1.4.05.2.07.41.07.63 0 .61-.19 1.17-.51 1.63.15.21.3.4.47.6.18.2.36.39.57.58-.13.06-.25.11-.37.17-.26.13-.53.26-.78.41.5.23.96.54 1.37.9.23-.11.48-.21.72-.3.24-.1.5-.19.75-.26.27-.09.47-.32.51-.6a.72.72 0 0 0-.34-.7Zm8.19.56c-.13-.06-.25-.11-.37-.17.2-.19.39-.38.57-.58-.33-.42-.57-.92-.68-1.46-.46.65-1.05 1.22-1.74 1.64-.24.15-.38.42-.34.7.04.27.23.51.5.6.26.08.52.17.76.26s.48.2.72.3c.4-.36.86-.66 1.37-.9-.25-.15-.52-.28-.78-.41Z"
+                  style="fill: #fff; stroke-width: 0"
+                />
+              </svg>
+            </div>
+            <div class="m-l-2 title">
+              <span class="color-orange">Öğrenci</span>
+              <span>Veli Bilgileri</span>
+            </div>
+          </div>
+          <form action="">
+            <div class="w-100 d-flex gap-3 m-b-3 m-flex-column">
+              <div
+                class="flex-column d-flex w-100 mini-m-x-1 mini-m-y-1 mini-w-auto"
+              >
+                <label for="veliAdSoyad">Velinizin Adı Soyadı:</label>
+                <input
+                  type="text"
+                  id="veliAdSoyad"
+                  name="veliAdSoyad"
+                  class="box"
+                  placeholder="Okulunuzun Adı"
+                  required
+                />
+              </div>
+              <div
+                class="flex-column d-flex w-100 mini-m-x-1 mini-m-y-1 mini-w-auto"
+              >
+                <label for="veliMail">Velinizin E-Posta Adresi:</label>
+                <input
+                  type="mail"
+                  id="veliMail"
+                  name="veliMail"
+                  class="box"
+                  placeholder="Okul Numaranız"
+                  required
+                />
+              </div>
+            </div>
+            <div class="w-100 d-flex gap-3 m-b-5 m-flex-column">
+              <div
+                class="flex-column d-flex w-100 mini-m-x-1 mini-m-y-1 mini-w-auto"
+              >
+                <label for="veliTel">Velinizin İletişim Telefonu-1:</label>
+                <input
+                  type="number"
+                  id="veliTel"
+                  name="veliTel"
+                  class="box"
+                  placeholder="Öğrencinin Şubesi"
+                  required
+                />
+              </div>
+              <div
+                class="flex-column d-flex w-100 mini-m-x-1 mini-m-y-1 mini-w-auto"
+              >
+                <label for="veliTel2">Velinizin İletişim Telefonu-1:</label>
+                <input
+                  type="number"
+                  id="veliTel2"
+                  name="veliTel2"
+                  class="box"
+                  placeholder="Öğrencinin Şubesi"
+                  required
+                />
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="register-block">
+          <div
+            class="register-head-box m-b-3 m-t-5 mini-m-x-1 mini-m-y-1 mini-w-auto"
+          >
+            <div class="icon">
+              <svg
+                data-name="katman 2"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 32.79 33"
+              >
+                <path
+                  d="M23.43 17.1c-.16-.08-.33-.15-.5-.23.27-.25.53-.51.77-.79a4.83 4.83 0 0 1-.92-1.97c-.62.89-1.42 1.65-2.35 2.22-.33.2-.51.57-.46.95.05.38.31.7.68.81.35.11.69.22 1.02.35.33.13.66.27.97.42.55-.5 1.17-.91 1.85-1.22-.35-.2-.7-.38-1.06-.55Zm-11.07-.76a7.779 7.779 0 0 1-2.35-2.22c-.4-.58-.72-1.21-.96-1.89-.06-.19-.12-.37-.17-.57a3.902 3.902 0 0 0-2.19-2.21v.25c0 2.08.66 4.01 1.77 5.59.19.28.4.54.63.8.24.28.5.54.77.79-.17.07-.33.15-.5.23-.36.17-.72.35-1.06.55.68.31 1.31.73 1.85 1.22.32-.15.64-.29.97-.42.33-.13.67-.25 1.02-.35.37-.11.63-.43.68-.81a.962.962 0 0 0-.46-.95Zm11.34-.25a4.83 4.83 0 0 1-.92-1.97c-.62.89-1.42 1.65-2.35 2.22-.33.2-.51.57-.46.95.05.38.31.7.68.81.35.11.69.22 1.02.35.52-.53 1.12-.98 1.77-1.35-.16-.08-.33-.15-.5-.23.27-.25.53-.51.77-.79Zm-11.34.25a7.779 7.779 0 0 1-2.35-2.22c-.4-.58-.72-1.21-.96-1.89-.06-.19-.12-.37-.17-.57a3.902 3.902 0 0 0-2.19-2.21v.25c0 2.08.66 4.01 1.77 5.59.19.28.4.54.63.8.24.28.5.54.77.79-.17.07-.33.15-.5.23-.36.17-.72.35-1.06.55a16.495 16.495 0 0 0-6.21 6.17h2.29a14.569 14.569 0 0 1 6.75-5.36c.33-.13.67-.25 1.02-.35.37-.11.63-.43.68-.81a.962.962 0 0 0-.46-.95Zm20.41 13.63a16.455 16.455 0 0 0-2.06-6.16 16.54 16.54 0 0 0-7.27-6.71c-.16-.08-.33-.15-.5-.23a10.09 10.09 0 0 0 1.4-1.59 9.702 9.702 0 0 0 1.77-5.59v-.25c0-.34-.03-.68-.08-1.01C25.4 3.68 21.33 0 16.39 0S7.38 3.68 6.77 8.45c-.04.33-.07.67-.08 1.01v.25c0 2.08.66 4.01 1.77 5.59.19.28.4.54.63.8.24.28.5.54.77.79-.17.07-.33.15-.5.23-.36.17-.72.35-1.06.55a16.495 16.495 0 0 0-6.21 6.17A16.455 16.455 0 0 0 .03 30c-.21 1.72 1.21 3.03 2.78 3.03h27.18c1.57 0 3-1.3 2.78-3.03Zm-2.79 1.09H2.81c-.57 0-.91-.44-.86-.85.24-1.95.87-3.79 1.81-5.42.19-.33.4-.66.61-.98a14.569 14.569 0 0 1 6.75-5.36c.33-.13.67-.25 1.02-.35.37-.11.63-.43.68-.81a.962.962 0 0 0-.46-.95 7.779 7.779 0 0 1-2.35-2.22c-.4-.58-.72-1.21-.96-1.89-.06-.19-.12-.37-.17-.57-.16-.63-.25-1.29-.25-1.97v-.13c.07-4.23 3.52-7.64 7.76-7.64s7.69 3.41 7.76 7.64v.13c0 .68-.09 1.34-.25 1.97a7.646 7.646 0 0 1-1.13 2.45c-.62.89-1.42 1.65-2.35 2.22-.33.2-.51.57-.46.95.05.38.31.7.68.81.35.11.69.22 1.02.35a14.649 14.649 0 0 1 6.75 5.36c.22.32.42.64.61.98.94 1.63 1.57 3.47 1.81 5.42.05.4-.29.85-.86.85ZM12.36 16.34a7.779 7.779 0 0 1-2.35-2.22c-.4-.58-.72-1.21-.96-1.89-.06-.19-.12-.37-.17-.57a3.902 3.902 0 0 0-2.19-2.21v.25c0 2.08.66 4.01 1.77 5.59.19.28.4.54.63.8.24.28.5.54.77.79-.17.07-.33.15-.5.23-.36.17-.72.35-1.06.55a16.495 16.495 0 0 0-6.21 6.17h2.29a14.569 14.569 0 0 1 6.75-5.36c.33-.13.67-.25 1.02-.35.37-.11.63-.43.68-.81a.962.962 0 0 0-.46-.95Zm11.07.76c-.16-.08-.33-.15-.5-.23.27-.25.53-.51.77-.79a4.83 4.83 0 0 1-.92-1.97c-.62.89-1.42 1.65-2.35 2.22-.33.2-.51.57-.46.95.05.38.31.7.68.81.35.11.69.22 1.02.35.33.13.66.27.97.42.55-.5 1.17-.91 1.85-1.22-.35-.2-.7-.38-1.06-.55Zm-11.07-.76a7.779 7.779 0 0 1-2.35-2.22c-.4-.58-.72-1.21-.96-1.89.06.27.09.55.09.85 0 .82-.25 1.58-.69 2.21.19.28.4.54.63.8.24.28.5.54.77.79-.17.07-.33.15-.5.23-.36.17-.72.35-1.06.55.68.31 1.31.73 1.85 1.22.32-.15.64-.29.97-.42.33-.13.67-.25 1.02-.35.37-.11.63-.43.68-.81a.962.962 0 0 0-.46-.95Zm11.07.76c-.16-.08-.33-.15-.5-.23.27-.25.53-.51.77-.79a4.83 4.83 0 0 1-.92-1.97c-.62.89-1.42 1.65-2.35 2.22-.33.2-.51.57-.46.95.05.38.31.7.68.81.35.11.69.22 1.02.35.33.13.66.27.97.42.55-.5 1.17-.91 1.85-1.22-.35-.2-.7-.38-1.06-.55Z"
+                  style="fill: #fff; stroke-width: 0"
+                />
+                <path
+                  d="M19.35 15.17c-1.01 0-1.58-.48-1.97-.79-.13-.11-.26-.22-.38-.33-.3-.26-.44-.38-.53-.41h-.11c-.03 0-.07.01-.07.01h-.02c-.07.03-.17.11-.44.34l-.02.02c-.13.11-.28.24-.44.37l-.03.03c-.44.34-.98.77-1.93.77-.7 0-1.38-.31-1.79-.82-.27-.34-.56-.93-.37-1.81.01-.06.05-.11.11-.13h.06c.04 0 .08.01.11.04.05.04.31.21.72.21.22 0 .44-.05.67-.15.29-.13.5-.4.7-.66.07-.09.14-.18.21-.26.35-.4.72-.8 1.31-.81.42 0 .8.15 1.14.47l.11.1.11-.1c.34-.31.72-.46 1.13-.46.61 0 .98.41 1.35.81.07.08.14.17.22.27.21.26.42.53.7.66.22.1.45.15.67.15.45 0 .73-.2.76-.22s.07-.03.1-.03c.02 0 .04 0 .06.01.05.02.09.07.11.13.17.88-.12 1.46-.4 1.8-.41.5-1.09.82-1.78.83h-.04Z"
+                  style="stroke-width: 0; fill: #ff9300"
+                />
+              </svg>
+            </div>
+            <div class="m-l-2 title">
+              <span class="color-orange">Öğrenci</span>
+              <span>Babasının Bilgileri</span>
+            </div>
+          </div>
+          <form action="">
+            <div class="w-100 d-flex gap-3 m-b-3 m-flex-column">
+              <div
+                class="flex-column d-flex w-100 mini-m-x-1 mini-m-y-1 mini-w-auto"
+              >
+                <label for="babaDogum">Öğrenci Babasının Doğum Yeri:</label>
+                <input
+                  type="text"
+                  id="babaDogum"
+                  name="babaDogum"
+                  class="box"
+                  placeholder="Okulunuzun Adı"
+                  required
+                />
+              </div>
+              <div
+                class="flex-column d-flex w-100 mini-m-x-1 mini-m-y-1 mini-w-auto"
+              >
+                <label for="babaIl"
+                  >Öğrencin Babasının Nufüsa Kayıtlı İl/İlçe:</label
+                >
+                <input
+                  type="text"
+                  id="babaIl"
+                  name="babaIl"
+                  class="box"
+                  placeholder="Okul Numaranız"
+                  required
+                />
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="register-block">
+          <div
+            class="register-head-box m-b-3 m-t-5 mini-m-x-1 mini-m-y-1 mini-w-auto"
+          >
+            <div class="icon">
+              <svg
+                data-name="katman 2"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 32.79 33"
+              >
+                <path
+                  d="M23.43 17.1c-.16-.08-.33-.15-.5-.23.27-.25.53-.51.77-.79a4.83 4.83 0 0 1-.92-1.97c-.62.89-1.42 1.65-2.35 2.22-.33.2-.51.57-.46.95.05.38.31.7.68.81.35.11.69.22 1.02.35.33.13.66.27.97.42.55-.5 1.17-.91 1.85-1.22-.35-.2-.7-.38-1.06-.55Zm-11.07-.76a7.779 7.779 0 0 1-2.35-2.22c-.4-.58-.72-1.21-.96-1.89-.06-.19-.12-.37-.17-.57a3.902 3.902 0 0 0-2.19-2.21v.25c0 2.08.66 4.01 1.77 5.59.19.28.4.54.63.8.24.28.5.54.77.79-.17.07-.33.15-.5.23-.36.17-.72.35-1.06.55.68.31 1.31.73 1.85 1.22.32-.15.64-.29.97-.42.33-.13.67-.25 1.02-.35.37-.11.63-.43.68-.81a.962.962 0 0 0-.46-.95Zm11.34-.25a4.83 4.83 0 0 1-.92-1.97c-.62.89-1.42 1.65-2.35 2.22-.33.2-.51.57-.46.95.05.38.31.7.68.81.35.11.69.22 1.02.35.52-.53 1.12-.98 1.77-1.35-.16-.08-.33-.15-.5-.23.27-.25.53-.51.77-.79Zm-11.34.25a7.779 7.779 0 0 1-2.35-2.22c-.4-.58-.72-1.21-.96-1.89-.06-.19-.12-.37-.17-.57a3.902 3.902 0 0 0-2.19-2.21v.25c0 2.08.66 4.01 1.77 5.59.19.28.4.54.63.8.24.28.5.54.77.79-.17.07-.33.15-.5.23-.36.17-.72.35-1.06.55a16.495 16.495 0 0 0-6.21 6.17h2.29a14.569 14.569 0 0 1 6.75-5.36c.33-.13.67-.25 1.02-.35.37-.11.63-.43.68-.81a.962.962 0 0 0-.46-.95Zm20.41 13.63a16.455 16.455 0 0 0-2.06-6.16 16.54 16.54 0 0 0-7.27-6.71c-.16-.08-.33-.15-.5-.23a10.09 10.09 0 0 0 1.4-1.59 9.702 9.702 0 0 0 1.77-5.59v-.25c0-.34-.03-.68-.08-1.01C25.4 3.68 21.33 0 16.39 0S7.38 3.68 6.77 8.45c-.04.33-.07.67-.08 1.01v.25c0 2.08.66 4.01 1.77 5.59.19.28.4.54.63.8.24.28.5.54.77.79-.17.07-.33.15-.5.23-.36.17-.72.35-1.06.55a16.495 16.495 0 0 0-6.21 6.17A16.455 16.455 0 0 0 .03 30c-.21 1.72 1.21 3.03 2.78 3.03h27.18c1.57 0 3-1.3 2.78-3.03Zm-2.79 1.09H2.81c-.57 0-.91-.44-.86-.85.24-1.95.87-3.79 1.81-5.42.19-.33.4-.66.61-.98a14.569 14.569 0 0 1 6.75-5.36c.33-.13.67-.25 1.02-.35.37-.11.63-.43.68-.81a.962.962 0 0 0-.46-.95 7.779 7.779 0 0 1-2.35-2.22c-.4-.58-.72-1.21-.96-1.89-.06-.19-.12-.37-.17-.57-.16-.63-.25-1.29-.25-1.97v-.13c.07-4.23 3.52-7.64 7.76-7.64s7.69 3.41 7.76 7.64v.13c0 .68-.09 1.34-.25 1.97a7.646 7.646 0 0 1-1.13 2.45c-.62.89-1.42 1.65-2.35 2.22-.33.2-.51.57-.46.95.05.38.31.7.68.81.35.11.69.22 1.02.35a14.649 14.649 0 0 1 6.75 5.36c.22.32.42.64.61.98.94 1.63 1.57 3.47 1.81 5.42.05.4-.29.85-.86.85ZM12.36 16.34a7.779 7.779 0 0 1-2.35-2.22c-.4-.58-.72-1.21-.96-1.89-.06-.19-.12-.37-.17-.57a3.902 3.902 0 0 0-2.19-2.21v.25c0 2.08.66 4.01 1.77 5.59.19.28.4.54.63.8.24.28.5.54.77.79-.17.07-.33.15-.5.23-.36.17-.72.35-1.06.55a16.495 16.495 0 0 0-6.21 6.17h2.29a14.569 14.569 0 0 1 6.75-5.36c.33-.13.67-.25 1.02-.35.37-.11.63-.43.68-.81a.962.962 0 0 0-.46-.95Zm11.07.76c-.16-.08-.33-.15-.5-.23.27-.25.53-.51.77-.79a4.83 4.83 0 0 1-.92-1.97c-.62.89-1.42 1.65-2.35 2.22-.33.2-.51.57-.46.95.05.38.31.7.68.81.35.11.69.22 1.02.35.33.13.66.27.97.42.55-.5 1.17-.91 1.85-1.22-.35-.2-.7-.38-1.06-.55Zm-11.07-.76a7.779 7.779 0 0 1-2.35-2.22c-.4-.58-.72-1.21-.96-1.89.06.27.09.55.09.85 0 .82-.25 1.58-.69 2.21.19.28.4.54.63.8.24.28.5.54.77.79-.17.07-.33.15-.5.23-.36.17-.72.35-1.06.55.68.31 1.31.73 1.85 1.22.32-.15.64-.29.97-.42.33-.13.67-.25 1.02-.35.37-.11.63-.43.68-.81a.962.962 0 0 0-.46-.95Zm11.07.76c-.16-.08-.33-.15-.5-.23.27-.25.53-.51.77-.79a4.83 4.83 0 0 1-.92-1.97c-.62.89-1.42 1.65-2.35 2.22-.33.2-.51.57-.46.95.05.38.31.7.68.81.35.11.69.22 1.02.35.33.13.66.27.97.42.55-.5 1.17-.91 1.85-1.22-.35-.2-.7-.38-1.06-.55Z"
+                  style="fill: #fff; stroke-width: 0"
+                />
+                <path
+                  d="M19.35 15.17c-1.01 0-1.58-.48-1.97-.79-.13-.11-.26-.22-.38-.33-.3-.26-.44-.38-.53-.41h-.11c-.03 0-.07.01-.07.01h-.02c-.07.03-.17.11-.44.34l-.02.02c-.13.11-.28.24-.44.37l-.03.03c-.44.34-.98.77-1.93.77-.7 0-1.38-.31-1.79-.82-.27-.34-.56-.93-.37-1.81.01-.06.05-.11.11-.13h.06c.04 0 .08.01.11.04.05.04.31.21.72.21.22 0 .44-.05.67-.15.29-.13.5-.4.7-.66.07-.09.14-.18.21-.26.35-.4.72-.8 1.31-.81.42 0 .8.15 1.14.47l.11.1.11-.1c.34-.31.72-.46 1.13-.46.61 0 .98.41 1.35.81.07.08.14.17.22.27.21.26.42.53.7.66.22.1.45.15.67.15.45 0 .73-.2.76-.22s.07-.03.1-.03c.02 0 .04 0 .06.01.05.02.09.07.11.13.17.88-.12 1.46-.4 1.8-.41.5-1.09.82-1.78.83h-.04Z"
+                  style="stroke-width: 0; fill: #ff9300"
+                />
+              </svg>
+            </div>
+            <div class="m-l-2 title">
+              <span class="color-orange">Onay</span> <span>& Başvuru</span>
+            </div>
+          </div>
+          <div
+            class="d-flex flex-column m-b-6 mini-m-x-1 mini-m-y-1 mini-w-auto"
+          >
+            <a href="#" class="checkbox d-flex align-items-center w-100"
+              ><input
+                type="checkbox"
+                id="onay1"
+                name="onay1[]"
+                value="kirmizi"
+              />
+              <label for="onay1">Bilgilerin Doğruluğunu Onaylıyorum</label> </a
+            ><a href="#" class="checkbox d-flex align-items-center w-100 m-t-4"
+              ><input
+                type="checkbox"
+                id="onay2"
+                name="onay1[]"
+                value="kirmizi"
+              />
+              <label for="onay2"
+                ><span class="color-orange">Sınıf Adı</span> Programına Ön
+                Kaydımı Onaylıyorum</label
+              ></a
+            >
+          </div>
+        </div>
+        <div class="to-apply-btn m-b-5 mini-m-x-1 mini-m-y-1 mini-w-auto">
+          <button>Başvuru Yap</button>
+        </div>
+      </div>
+    </section>
+    <section class="bg-blue w-100 text-blue-block">
+      <div class="container">
+        <div
+          class="d-flex flex-column m-t-9 m-b-9 align-center justify-content-center"
+        >
+          <h2 class="title">
+            Tertemiz yavrularımıza Kitabullah'ı nakşediyoruz...
+          </h2>
+          <div class="sub-title">
+            <div>
+              Hz. Osman ibni Affan (R.A)’dan rivayet olunur ki; Rasûlullah
+              (S.A.V) şöyle buyurdu:
+            </div>
+            <div>
+              “Sizin en hayırlınız Kur’anı öğrenen ve öğretendir.” Tirmizî,
+              Fedâilü'l-Kur'ân, 15.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about bg-light-gray">
+      <div class="container">
+        <div class="block-head m-t-5 m-b-2">
+          <h2 class="title m-0">
+            <span>Hafızların Yuvası</span>
+            <span class="bg-orange">Kestane Pazarı</span>
+          </h2>
+          <a href="#" class="link m-l-auto">Bizi Tanıyın...</a>
+        </div>
+        <div class="text">
+          <div class="descp text-center">
+            Kestanepazarı; Kurra Hafız Salih Tanrıbuyruğu Hocamız tarafından yüz
+            yılı aşkın süre önce temeli atılmış, o günün şartlarında hedefi
+            Allah’ın dinini öğretmek ve öğrenmek olan bir kuruluştur. Derneğimiz
+            bugün de, bu çizgiden ayrılmadan, gelişen ve değişen şartlarda, aynı
+            gayeyle yoluna devam etmekte, aynı heyecan ve coşkuyu yüreklerinde
+            hissetmektedir.
+          </div>
+          <div class="img">
+            <img
+              class="w-100"
+              src="img/general/hisar.png"
+              height="217"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="link responsive">
+          <a href="#" class="color-orange">Bizi Tanıyın...</a>
+        </div>
+      </div>
+    </section>
+    <section class="info bg-orange">
+      <div class="container">
+        <div class="d-flex align-items-center w-100 m-t-2 m-b-2 m-flex-column">
+          <div class="title m-l-8 w-100">
+            Sorularınız için lütfen bizimle iletişim kurun
+          </div>
+          <div class="contact m-l-auto">
+            <div class="tel text-right">
+              <a href="tel:444 9 232">444 9 232</a>
+            </div>
+            <div class="mail text-right">
+              <a href="#">bilgi@kestanepazari.org.tr</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="footer">
+      <div class="container">
+        <div class="footer-top m-flex-column">
+          <div class="footer-block">
+            <div class="img"><img src="img/logo/logo-1.png" alt="" /></div>
+            <div class="text">
+              Kestanepazarı’nın amacı, Kur’an-ı Kerim’i anlayabilecek, dini
+              kaynak metinlere bakabilecek, ihsan duygusu taşıyan nesillerle;
+              Kur’an-ı Kerim’i en güzel okuyan hafızlar yetiştirmektir.
+              Kestanepazarı, Kur’an ve Sünnet doğrultusunda ilim adamları
+              yetiştiren bir kurumdur.
+            </div>
+          </div>
+          <div class="footer-block">
+            <div class="title">KURUMSAL</div>
+            <div class="footer-block-list">
+              <ul>
+                <li><a href="#">Hakkımızda</a></li>
+                <li><a href="#">Tarihçe</a></li>
+                <li><a href="#">Amacımız</a></li>
+                <li><a href="#">Fotoğraf Galerisi</a></li>
+                <li><a href="#">Yönetim Kurulumuz</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-block">
+            <div class="title">EĞİTİM/ÖĞRETİM</div>
+            <div class="footer-block-list">
+              <ul>
+                <li><a href="#">Beceri Eğitimleri</a></li>
+                <li><a href="#">Kültürel Geziler</a></li>
+                <li><a href="#">Öğrenci Yurdu</a></li>
+                <li><a href="#">Spor Faliyetleri</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-block">
+            <div class="title">KUR'AN KURSLARI</div>
+            <div class="footer-block-list">
+              <ul>
+                <li><a href="#">Kestanepazarı Aliağa Kur'an Kursu</a></li>
+                <li><a href="#">Kestanepazarı Hatay Kur'an Kursu</a></li>
+                <li><a href="#">Kestanepazarı Merkez Kur'an Kursu</a></li>
+                <li><a href="#">Kestanepazarı 7-10 Yaş Kur'an Kursu</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-block">
+            <div class="title">ONLİNE BAĞIŞ</div>
+            <div class="footer-block-list">
+              <ul>
+                <li><a href="#">Adak</a></li>
+                <li><a href="#">Bir Öğrenci Okut!</a></li>
+                <li>
+                  <a href="#">Bir Öğrencinin Günlük İhtiyacını Karşıla</a>
+                </li>
+                <li><a href="#">Ekmek (Bir Günlük)</a></li>
+                <li><a href="#">Genel Bağış</a></li>
+                <li><a href="#">Zekat</a></li>
+                <li><a href="#">Banka Hesaplarımız</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom bg-dark-blue m-t-4">
+        <div class="container">
+          <div class="text">
+            <span>© 2024 - Tüm Hakları Saklıdır</span>
+            <span>Kestanepazarı Öğrenci Yetiştirme Derneği</span>
+          </div>
+          <div class="logo m-l-auto">
+            <div class="img"><img src="img/logo/footer-logo.png" alt="" /></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="js/lib.js?v=1177fbc8b86bb4cc1ceb1605a54edf94"
+      type="module"
+    ></script>
+    <script src="js/main.js?v=1177fbc8b86bb4cc1ceb1605a54edf94"></script>
+  </body>
+</html>

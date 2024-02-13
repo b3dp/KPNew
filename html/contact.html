@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="tr" dir="ltr" class="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Front end Starter Kit</title>
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <meta name="keywords" content="..." />
+    <meta name="description" content="..." />
+    <meta property="og:locale" content="tr_TR" />
+    <meta property="og:title" content="..." />
+    <meta property="og:description" content="..." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="" />
+    <meta property="og:site_name" content="" />
+    <link rel="canonical" href="" />
+    <link rel="image_src" href="" />
+    <link rel="icon" type="image/x-icon" sizes="any" href="favicon.ico" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="apple-touch-icon" href="favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css?v=1177fbc8b86bb4cc1ceb1605a54edf94"
+    />
+    <link
+      rel="stylesheet"
+      href="css/main.css?v=1177fbc8b86bb4cc1ceb1605a54edf94"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js?v=1177fbc8b86bb4cc1ceb1605a54edf94"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css?v=1177fbc8b86bb4cc1ceb1605a54edf94"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js?v=1177fbc8b86bb4cc1ceb1605a54edf94"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js?v=1177fbc8b86bb4cc1ceb1605a54edf94"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css?v=1177fbc8b86bb4cc1ceb1605a54edf94"
+    />
+  </head>
+  <body class="body-home">
+    <header id="header">
+      <div class="container position-relative">
+        <div class="sticky-mobile-nav">
+          <div class="bg-green donation-btn">
+            <a href="bagis-sayfasi.html">BAĞIŞ YAP</a>
+          </div>
+          <div class="d-flex w-100">
+            <div class="bank-account bg-blue">
+              <a href="bagis-sayfasi.html">BANKA HESAPLARIMIZ</a>
+            </div>
+            <div class="contact-info bg-orange">
+              <a href="contact.html"
+                ><span>İletişim Hattı:</span> <span>444 9 232</span></a
+              >
+            </div>
+          </div>
+        </div>
+        <nav>
+          <div class="nav-logo">
+            <a href="index.html" class="img"
+              ><img src="img/header-logo/header-logo.png" alt=""
+            /></a>
+          </div>
+          <div class="navbar">
+            <div class="navbar-list">
+              <ul>
+                <li><a href="index.html">ANA SAYFA</a></li>
+                <li class="position-relative">
+                  <a
+                    href="javascript:void(0);"
+                    id="kurumsal-dropdown"
+                    class="arrow"
+                    >KURUMSAL</a
+                  >
+                  <div class="nav-dropdown">
+                    <div class="dropdown-content">
+                      <ul class="dropdown-content-ul">
+                        <li>
+                          <a href="index.html">Hakkımızda</a>
+                          <div class="icon"></div>
+                        </li>
+                        <li>
+                          <a href="index.html">Tarihçe</a>
+                          <div class="icon"></div>
+                        </li>
+                        <li>
+                          <a href="index.html">Amacımız</a>
+                          <div class="icon"></div>
+                        </li>
+                        <li>
+                          <a href="index.html">Fotoğraf Galerisi</a>
+                          <div class="icon"></div>
+                        </li>
+                        <li>
+                          <a href="index.html">Yönetim Kurulumuz</a>
+                          <div class="icon"></div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="position-relative">
+                  <a
+                    href="javascript:void(0);"
+                    id="egitim-dropdown"
+                    class="arrow"
+                    >EĞİTİM</a
+                  >
+                  <div class="nav-dropdown">
+                    <div class="dropdown-content">
+                      <ul class="dropdown-content-ul">
+                        <li>
+                          <a href="index.html">Beceri Eğitimleri</a>
+                          <div class="icon"></div>
+                        </li>
+                        <li>
+                          <a href="index.html">Kültürel Geziler</a>
+                          <div class="icon"></div>
+                        </li>
+                        <li>
+                          <a href="index.html">Öğrenci Yurdu</a>
+                          <div class="icon"></div>
+                        </li>
+                        <li>
+                          <a href="index.html">Spor Faliyetleri</a>
+                          <div class="icon"></div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="position-relative">
+                  <a href="javascript:void(0);" id="yurt-dropdown" class="arrow"
+                    >YURT</a
+                  >
+                  <div class="nav-dropdown">
+                    <div class="dropdown-content">
+                      <ul class="dropdown-content-ul">
+                        <li>
+                          <a href="index.html"
+                            >Kestanepazarı Aliağa Kur'an Kursu</a
+                          >
+                          <div class="icon"></div>
+                        </li>
+                        <li>
+                          <a href="index.html"
+                            >Kestanepazarı Hatay Kur'an Kursu</a
+                          >
+                          <div class="icon"></div>
+                        </li>
+                        <li>
+                          <a href="index.html"
+                            >Kestanepazarı Merkez Kur'an Kursu</a
+                          >
+                          <div class="icon"></div>
+                        </li>
+                        <li>
+                          <a href="index.html"
+                            >Kestanepazarı 7-10 Kur'an Kursu</a
+                          >
+                          <div class="icon"></div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li><a href="news-subject.html">HABERLER</a></li>
+                <li><a href="news-subject.html">ETKİNLİKLER</a></li>
+                <li><a href="contact.html">İLETİŞİM</a></li>
+              </ul>
+            </div>
+            <div class="navbar-search m-l-2 search-toggle">
+              <button>
+                <svg
+                  id="katman_2"
+                  data-name="katman 2"
+                  width="30"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                >
+                  <defs>
+                    <style>
+                      .cls-1 {
+                        fill: #fff;
+                        stroke-width: 0;
+                      }
+                    </style>
+                  </defs>
+                  <g id="header">
+                    <path
+                      class="cls-1"
+                      d="M19,20c-.26,0-.51-.1-.71-.29l-4.54-4.53c-1.49,1.18-3.32,1.82-5.25,1.82-2.27,0-4.4-.88-6.01-2.49-1.61-1.61-2.49-3.74-2.49-6.01S.88,4.1,2.49,2.49C4.1.88,6.23,0,8.5,0s4.4.88,6.01,2.49c1.61,1.61,2.49,3.74,2.49,6.01,0,1.94-.64,3.77-1.83,5.27l4.54,4.52c.39.39.39,1.02,0,1.41-.2.2-.45.29-.71.29ZM8.5,2c-1.74,0-3.37.68-4.6,1.9-1.23,1.23-1.9,2.86-1.9,4.6s.68,3.37,1.9,4.6c1.23,1.23,2.86,1.9,4.6,1.9s3.37-.68,4.6-1.9c1.23-1.23,1.9-2.86,1.9-4.6s-.68-3.37-1.9-4.6c-1.23-1.23-2.86-1.9-4.6-1.9Z"
+                    />
+                  </g>
+                </svg>
+              </button>
+            </div>
+            <a href="bagis-sayfasi.html" class="navbar-donation m-l-1"
+              ><button>BAĞIŞ YAP</button></a
+            >
+          </div>
+          <div class="responsive-navbar">
+            <div class="logo">
+              <img src="img/header-logo/header-logo.png" alt="" />
+            </div>
+            <div class="responsive-btns-nav">
+              <div class="search search-toggle">
+                <button>
+                  <img
+                    src="img/icon/search-black.png"
+                    width="25"
+                    height="25"
+                    alt=""
+                  />
+                </button>
+              </div>
+              <div class="menu" id="mobile-toggle-menu">
+                <button>
+                  <img src="img/icon/menu.png" width="40" height="25" alt="" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="mobile-menu" id="mobile-menu">
+          <div class="toggle-x-menu" id="toggle-x-menu">
+            <button>
+              <div class="img"><img src="./img/icon/x.png" alt="" /></div>
+            </button>
+          </div>
+          <div class="content">
+            <div class="menu-list">
+              <ul>
+                <li><a href="#">ANA SAYFA</a></li>
+                <li class="menu-dropdown">
+                  <a href="#"
+                    ><span>KURUMSAL</span>
+                    <span
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-chevron-down"
+                        width="24"
+                        height="24"
+                        stroke-width="2"
+                        stroke="currentColor"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="M0 0h24v24H0z" stroke="none" />
+                        <path d="m6 9 6 6 6-6" /></svg></span
+                  ></a>
+                  <div class="mobile-menu-content">
+                    <ul>
+                      <li><a href="#">Hakkımızda</a></li>
+                      <li><a href="#">Tarihçe</a></li>
+                      <li><a href="#">Fotoğraf Galerisi</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="menu-dropdown">
+                  <a href="#"
+                    ><span>EĞİTİM</span>
+                    <span
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-chevron-down"
+                        width="24"
+                        height="24"
+                        stroke-width="2"
+                        stroke="currentColor"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="M0 0h24v24H0z" stroke="none" />
+                        <path d="m6 9 6 6 6-6" /></svg></span
+                  ></a>
+                  <div class="mobile-menu-content">
+                    <ul>
+                      <li><a href="#">Beceri Eğitimleri</a></li>
+                      <li><a href="#">Spor Faliyetleri</a></li>
+                      <li><a href="#">Kültürel Geziler</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="menu-dropdown">
+                  <a href="#"
+                    ><span>YURT</span>
+                    <span
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-chevron-down"
+                        width="24"
+                        height="24"
+                        stroke-width="2"
+                        stroke="currentColor"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="M0 0h24v24H0z" stroke="none" />
+                        <path d="m6 9 6 6 6-6" /></svg></span
+                  ></a>
+                  <div class="mobile-menu-content">
+                    <ul>
+                      <li><a href="#">Öğrenci Yurdu</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li><a href="#">HABERLER</a></li>
+                <li><a href="#">ETKİNLİKLER</a></li>
+                <li><a href="#">İLETİŞİM</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="search-bar" id="search-bar">
+          <div class="search-input">
+            <input type="text" placeholder="Arama Yapın.." />
+            <div class="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-search"
+                width="24"
+                height="24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M0 0h24v24H0z" stroke="none" />
+                <path d="M3 10a7 7 0 1 0 14 0 7 7 0 1 0-14 0M21 21l-6-6" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="container">
+        <div class="head w-100 m-b-5">
+          <h1 class="title">İletişim</h1>
+          <div class="breadcrumb m-l-auto">
+            <a href="index.html" class="breadcrumb-item">Anasayfa</a>
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-chevron-right"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M9 6l6 6l-6 6" />
+              </svg> </span
+            ><a href="index.html" class="breadcrumb-item">Eğitim</a>
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-chevron-right"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M9 6l6 6l-6 6" /></svg
+            ></span>
+            <div class="breadcrumb-item">İletişim</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="d-flex">
+      <div class="container">
+        <div class="d-flex">
+          <div class="col-9 w-100 mini-mw-100 contact-left">
+            <div class="contact m-t-5">
+              <div class="d-flex justify-content-between m-flex-column">
+                <div class="contact-card">
+                  <div class="icon">
+                    <img src="img/icon/phone.png" alt="" />
+                  </div>
+                  <div class="title">İletişim Hattı</div>
+                  <div class="card-bottom">
+                    <a href="tel:444 9 232">444 9 232</a>
+                  </div>
+                </div>
+                <div class="contact-card">
+                  <div class="icon">
+                    <img src="img/icon/message.png" alt="" />
+                  </div>
+                  <div class="title">E-Posta Gönderin</div>
+                  <div class="card-bottom">
+                    <a href="mailto:bilgi@kestanepazari.org.tr"
+                      >bilgi@kestanepazari.org.tr</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex m-t-2 m-flex-column">
+                <input
+                  type="text"
+                  class="w-100"
+                  id="adSoyad"
+                  name="adSoyad"
+                  placeholder="Adınız Soyadınız"
+                  required
+                />
+                <input
+                  type="email"
+                  class="w-100"
+                  id="email"
+                  name="email"
+                  placeholder="E-Posta Adresi"
+                  required
+                />
+                <input
+                  type="tel"
+                  class="w-100"
+                  id="telefon"
+                  name="telefon"
+                  placeholder="Telefon Numarası"
+                  required
+                />
+              </div>
+              <div class="d-flex w-100 m-flex-column">
+                <div class="textarea m-t-2 d-flex">
+                  <textarea
+                    id="message"
+                    name="message"
+                    class="m-r-1 w-100"
+                    placeholder="Derneğimize İletmek İstediğiniz Mesajınız"
+                  ></textarea>
+                  <div class="icon">
+                    <img
+                      src="img/icon/banka.svg"
+                      width="25"
+                      height="25"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <button class="submit-btn m-l-1 m-t-2">GÖNDER</button>
+              </div>
+            </div>
+            <div class="map">
+              <div class="map-box m-t-2 m-flex-column">
+                <div class="text">
+                  <div class="title">
+                    Kestanepazarı
+                    <span class="color-orange">Merkez Kur'an Kursu</span>
+                  </div>
+                  <div class="descp">
+                    <div class="title">Adres:</div>
+                    <span>872 Sk. No: 52 Kestanepazarı Konak/İzmir</span>
+                  </div>
+                </div>
+                <div class="map-iframe">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12184.821971018524!2d28.840876!3d40.22673305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ca0e1468ae274d%3A0xa6e423f6139ae9f2!2zR8O2csO8a2xlLCBOaWzDvGZlci9CdXJzYQ!5e0!3m2!1str!2str!4v1706635027721!5m2!1str!2str"
+                    width="600"
+                    height="450"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+              </div>
+              <div class="map-box m-t-2 m-flex-column">
+                <div class="text">
+                  <div class="title">
+                    Kestanepazarı
+                    <span class="color-orange">Merkez Kur'an Kursu</span>
+                  </div>
+                  <div class="descp">
+                    <div class="title">Adres:</div>
+                    <span>872 Sk. No: 52 Kestanepazarı Konak/İzmir</span>
+                  </div>
+                </div>
+                <div class="map-iframe">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12184.821971018524!2d28.840876!3d40.22673305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ca0e1468ae274d%3A0xa6e423f6139ae9f2!2zR8O2csO8a2xlLCBOaWzDvGZlci9CdXJzYQ!5e0!3m2!1str!2str!4v1706635027721!5m2!1str!2str"
+                    width="600"
+                    height="450"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+              </div>
+              <div class="map-box m-t-2 m-flex-column">
+                <div class="text">
+                  <div class="title">
+                    Kestanepazarı
+                    <span class="color-orange">Merkez Kur'an Kursu</span>
+                  </div>
+                  <div class="descp">
+                    <div class="title">Adres:</div>
+                    <span>872 Sk. No: 52 Kestanepazarı Konak/İzmir</span>
+                  </div>
+                </div>
+                <div class="map-iframe">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12184.821971018524!2d28.840876!3d40.22673305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ca0e1468ae274d%3A0xa6e423f6139ae9f2!2zR8O2csO8a2xlLCBOaWzDvGZlci9CdXJzYQ!5e0!3m2!1str!2str!4v1706635027721!5m2!1str!2str"
+                    width="600"
+                    height="450"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+              </div>
+              <div class="map-box m-t-2 m-flex-column">
+                <div class="text">
+                  <div class="title">
+                    Kestanepazarı
+                    <span class="color-orange">Merkez Kur'an Kursu</span>
+                  </div>
+                  <div class="descp">
+                    <div class="title">Adres:</div>
+                    <span>872 Sk. No: 52 Kestanepazarı Konak/İzmir</span>
+                  </div>
+                </div>
+                <div class="map-iframe">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12184.821971018524!2d28.840876!3d40.22673305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ca0e1468ae274d%3A0xa6e423f6139ae9f2!2zR8O2csO8a2xlLCBOaWzDvGZlci9CdXJzYQ!5e0!3m2!1str!2str!4v1706635027721!5m2!1str!2str"
+                    width="600"
+                    height="450"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 m-t-5 w-100 md-d-none">
+            <div class="news-slider">
+              <div class="news-slider-head">
+                <div class="block-head">
+                  <h2 class="title m-0">
+                    <span>Benzer</span> <span class="bg-orange">Haberler</span>
+                  </h2>
+                  <div class="news-slider-btns">
+                    <div class="news-btn-prev">
+                      <button>
+                        <img
+                          src="img/icon/left-btn.png"
+                          width="10"
+                          height="10"
+                          alt=""
+                        />
+                      </button>
+                    </div>
+                    <div class="news-btn-next">
+                      <button>
+                        <img
+                          src="img/icon/right-btn.png"
+                          width="10"
+                          height="10"
+                          alt=""
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider">
+                  <div class="swiper mySwiper-news">
+                    <div class="swiper-wrapper">
+                      <a href="#" class="swiper-slide"
+                        ><div class="img">
+                          <img
+                            src="https://picsum.photos/200/300"
+                            width="300"
+                            height="170"
+                            alt=""
+                          />
+                          <div class="img-title">
+                            Kestanepazarı Sabah Namazı Gençlik Buluşmasına Ev
+                            Sahipliği Yaptı
+                          </div>
+                          <div class="img-date">10 Ekim 2023 Salı - 10:45</div>
+                        </div></a
+                      ><a href="#" class="swiper-slide"
+                        ><div class="img">
+                          <img
+                            src="https://picsum.photos/200/300"
+                            width="300"
+                            height="170"
+                            alt=""
+                          />
+                          <div class="img-title">
+                            Kestanepazarı Sabah Namazı Gençlik Buluşmasına Ev
+                            Sahipliği Yaptı
+                          </div>
+                          <div class="img-date">10 Ekim 2023 Salı - 10:45</div>
+                        </div></a
+                      ><a href="#" class="swiper-slide"
+                        ><div class="img">
+                          <img
+                            src="https://picsum.photos/200/300"
+                            width="300"
+                            height="170"
+                            alt=""
+                          />
+                          <div class="img-title">
+                            Kestanepazarı Sabah Namazı Gençlik Buluşmasına Ev
+                            Sahipliği Yaptı
+                          </div>
+                          <div class="img-date">10 Ekim 2023 Salı - 10:45</div>
+                        </div></a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="subject-box-grid m-t-3">
+              <a href="bagis-sayfasi.html" class="subject-box"
+                ><div class="img">
+                  <img
+                    src="img/icon/genel-bagis.svg"
+                    width="33"
+                    height="33"
+                    alt=""
+                  />
+                </div>
+                <div class="title"><span>Genel Bağış</span></div></a
+              ><a href="bagis-sayfasi.html" class="subject-box"
+                ><div class="img">
+                  <img
+                    src="img/icon/sadaka.svg"
+                    width="33"
+                    height="33"
+                    alt=""
+                  />
+                </div>
+                <div class="title"><span>Sadaka</span></div></a
+              ><a href="bagis-sayfasi.html" class="subject-box"
+                ><div class="img">
+                  <img src="img/icon/zekat.svg" width="33" height="33" alt="" />
+                </div>
+                <div class="title"><span>Zekat</span></div></a
+              ><a href="#" class="subject-box"
+                ><div class="img">
+                  <img src="img/icon/adak.svg" width="33" height="33" alt="" />
+                </div>
+                <div class="title"><span>Adak Kurbanı</span></div></a
+              ><a href="#" class="subject-box"
+                ><div class="img">
+                  <img src="img/icon/ekmek.svg" width="33" height="33" alt="" />
+                </div>
+                <div class="title"><span>Bir Günlük Ekmek</span></div></a
+              ><a href="#" class="subject-box"
+                ><div class="img">
+                  <img src="img/icon/kitap.svg" width="33" height="33" alt="" />
+                </div>
+                <div class="title"><span>Bir Öğrenci Okut</span></div></a
+              >
+            </div>
+            <div class="event-slider m-t-2">
+              <div class="event-slider-head">
+                <div class="block-head">
+                  <h2 class="title m-0">
+                    <span>Etkinlik</span> <span class="bg-orange">Takvimi</span>
+                  </h2>
+                  <div class="event-slider-btns">
+                    <div class="event-btn-prev">
+                      <button>
+                        <img
+                          src="img/icon/left-btn.png"
+                          width="10"
+                          height="10"
+                          alt=""
+                        />
+                      </button>
+                    </div>
+                    <div class="event-btn-next">
+                      <button>
+                        <img
+                          src="img/icon/right-btn.png"
+                          width="10"
+                          height="10"
+                          alt=""
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="slider">
+                <div class="swiper mySwiper-event">
+                  <div class="swiper-wrapper">
+                    <a href="news-detail.html" class="swiper-slide"
+                      ><div class="img">
+                        <img
+                          src="https://picsum.photos/200/300"
+                          width="300"
+                          height="424"
+                          alt=""
+                        /></div></a
+                    ><a href="news-detail.html" class="swiper-slide"
+                      ><div class="img">
+                        <img
+                          src="https://picsum.photos/200/300"
+                          width="300"
+                          height="424"
+                          alt=""
+                        /></div></a
+                    ><a href="news-detail.html" class="swiper-slide"
+                      ><div class="img">
+                        <img
+                          src="https://picsum.photos/200/300"
+                          width="300"
+                          height="424"
+                          alt=""
+                        /></div
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="event-slider-counter-grid">
+                <div class="event-counter-box">
+                  <div class="number" id="day-counter-7">09</div>
+                  <div class="title">gün</div>
+                </div>
+                <div class="event-counter-box">
+                  <div class="number" id="hour-counter-7">09</div>
+                  <div class="title">gün</div>
+                </div>
+                <div class="event-counter-box">
+                  <div class="number" id="minute-counter-7">09</div>
+                  <div class="title">gün</div>
+                </div>
+                <div class="event-counter-box">
+                  <div class="number" id="second-counter-7">09</div>
+                  <div class="title">gün</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-blue w-100 text-blue-block m-t-5">
+      <div class="container">
+        <div
+          class="d-flex flex-column m-t-9 m-b-9 align-center justify-content-center"
+        >
+          <h2 class="title">
+            Tertemiz yavrularımıza Kitabullah'ı nakşediyoruz...
+          </h2>
+          <div class="sub-title">
+            <div>
+              Hz. Osman ibni Affan (R.A)’dan rivayet olunur ki; Rasûlullah
+              (S.A.V) şöyle buyurdu:
+            </div>
+            <div>
+              “Sizin en hayırlınız Kur’anı öğrenen ve öğretendir.” Tirmizî,
+              Fedâilü'l-Kur'ân, 15.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about bg-light-gray">
+      <div class="container">
+        <div class="block-head m-t-5 m-b-2">
+          <h2 class="title m-0">
+            <span>Hafızların Yuvası</span>
+            <span class="bg-orange">Kestane Pazarı</span>
+          </h2>
+          <a href="#" class="link m-l-auto">Bizi Tanıyın...</a>
+        </div>
+        <div class="text">
+          <div class="descp text-center">
+            Kestanepazarı; Kurra Hafız Salih Tanrıbuyruğu Hocamız tarafından yüz
+            yılı aşkın süre önce temeli atılmış, o günün şartlarında hedefi
+            Allah’ın dinini öğretmek ve öğrenmek olan bir kuruluştur. Derneğimiz
+            bugün de, bu çizgiden ayrılmadan, gelişen ve değişen şartlarda, aynı
+            gayeyle yoluna devam etmekte, aynı heyecan ve coşkuyu yüreklerinde
+            hissetmektedir.
+          </div>
+          <div class="img">
+            <img
+              class="w-100"
+              src="img/general/hisar.png"
+              height="217"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="link responsive">
+          <a href="#" class="color-orange">Bizi Tanıyın...</a>
+        </div>
+      </div>
+    </section>
+    <section class="info bg-orange">
+      <div class="container">
+        <div class="d-flex align-items-center w-100 m-t-2 m-b-2 m-flex-column">
+          <div class="title m-l-8 w-100">
+            Sorularınız için lütfen bizimle iletişim kurun
+          </div>
+          <div class="contact m-l-auto">
+            <div class="tel text-right">
+              <a href="tel:444 9 232">444 9 232</a>
+            </div>
+            <div class="mail text-right">
+              <a href="#">bilgi@kestanepazari.org.tr</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="footer">
+      <div class="container">
+        <div class="footer-top m-flex-column">
+          <div class="footer-block">
+            <div class="img"><img src="img/logo/logo-1.png" alt="" /></div>
+            <div class="text">
+              Kestanepazarı’nın amacı, Kur’an-ı Kerim’i anlayabilecek, dini
+              kaynak metinlere bakabilecek, ihsan duygusu taşıyan nesillerle;
+              Kur’an-ı Kerim’i en güzel okuyan hafızlar yetiştirmektir.
+              Kestanepazarı, Kur’an ve Sünnet doğrultusunda ilim adamları
+              yetiştiren bir kurumdur.
+            </div>
+          </div>
+          <div class="footer-block">
+            <div class="title">KURUMSAL</div>
+            <div class="footer-block-list">
+              <ul>
+                <li><a href="#">Hakkımızda</a></li>
+                <li><a href="#">Tarihçe</a></li>
+                <li><a href="#">Amacımız</a></li>
+                <li><a href="#">Fotoğraf Galerisi</a></li>
+                <li><a href="#">Yönetim Kurulumuz</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-block">
+            <div class="title">EĞİTİM/ÖĞRETİM</div>
+            <div class="footer-block-list">
+              <ul>
+                <li><a href="#">Beceri Eğitimleri</a></li>
+                <li><a href="#">Kültürel Geziler</a></li>
+                <li><a href="#">Öğrenci Yurdu</a></li>
+                <li><a href="#">Spor Faliyetleri</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-block">
+            <div class="title">KUR'AN KURSLARI</div>
+            <div class="footer-block-list">
+              <ul>
+                <li><a href="#">Kestanepazarı Aliağa Kur'an Kursu</a></li>
+                <li><a href="#">Kestanepazarı Hatay Kur'an Kursu</a></li>
+                <li><a href="#">Kestanepazarı Merkez Kur'an Kursu</a></li>
+                <li><a href="#">Kestanepazarı 7-10 Yaş Kur'an Kursu</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-block">
+            <div class="title">ONLİNE BAĞIŞ</div>
+            <div class="footer-block-list">
+              <ul>
+                <li><a href="#">Adak</a></li>
+                <li><a href="#">Bir Öğrenci Okut!</a></li>
+                <li>
+                  <a href="#">Bir Öğrencinin Günlük İhtiyacını Karşıla</a>
+                </li>
+                <li><a href="#">Ekmek (Bir Günlük)</a></li>
+                <li><a href="#">Genel Bağış</a></li>
+                <li><a href="#">Zekat</a></li>
+                <li><a href="#">Banka Hesaplarımız</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom bg-dark-blue m-t-4">
+        <div class="container">
+          <div class="text">
+            <span>© 2024 - Tüm Hakları Saklıdır</span>
+            <span>Kestanepazarı Öğrenci Yetiştirme Derneği</span>
+          </div>
+          <div class="logo m-l-auto">
+            <div class="img"><img src="img/logo/footer-logo.png" alt="" /></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="js/lib.js?v=1177fbc8b86bb4cc1ceb1605a54edf94"
+      type="module"
+    ></script>
+    <script src="js/main.js?v=1177fbc8b86bb4cc1ceb1605a54edf94"></script>
+  </body>
+</html>

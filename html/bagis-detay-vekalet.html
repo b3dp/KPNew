@@ -1,0 +1,1101 @@
+<!DOCTYPE html>
+<html lang="tr" dir="ltr" class="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Front end Starter Kit</title>
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <meta name="keywords" content="..." />
+    <meta name="description" content="..." />
+    <meta property="og:locale" content="tr_TR" />
+    <meta property="og:title" content="..." />
+    <meta property="og:description" content="..." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="" />
+    <meta property="og:site_name" content="" />
+    <link rel="canonical" href="" />
+    <link rel="image_src" href="" />
+    <link rel="icon" type="image/x-icon" sizes="any" href="favicon.ico" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="apple-touch-icon" href="favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css?v=1177fbc8b86bb4cc1ceb1605a54edf94"
+    />
+    <link
+      rel="stylesheet"
+      href="css/main.css?v=1177fbc8b86bb4cc1ceb1605a54edf94"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js?v=1177fbc8b86bb4cc1ceb1605a54edf94"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css?v=1177fbc8b86bb4cc1ceb1605a54edf94"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js?v=1177fbc8b86bb4cc1ceb1605a54edf94"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js?v=1177fbc8b86bb4cc1ceb1605a54edf94"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css?v=1177fbc8b86bb4cc1ceb1605a54edf94"
+    />
+  </head>
+  <body class="body-home">
+    <header id="header">
+      <div class="container position-relative">
+        <div class="sticky-mobile-nav">
+          <div class="bg-green donation-btn">
+            <a href="bagis-sayfasi.html">BAĞIŞ YAP</a>
+          </div>
+          <div class="d-flex w-100">
+            <div class="bank-account bg-blue">
+              <a href="bagis-sayfasi.html">BANKA HESAPLARIMIZ</a>
+            </div>
+            <div class="contact-info bg-orange">
+              <a href="contact.html"
+                ><span>İletişim Hattı:</span> <span>444 9 232</span></a
+              >
+            </div>
+          </div>
+        </div>
+        <nav>
+          <div class="nav-logo">
+            <a href="index.html" class="img"
+              ><img src="img/header-logo/header-logo.png" alt=""
+            /></a>
+          </div>
+          <div class="navbar">
+            <div class="navbar-list">
+              <ul>
+                <li><a href="index.html">ANA SAYFA</a></li>
+                <li class="position-relative">
+                  <a
+                    href="javascript:void(0);"
+                    id="kurumsal-dropdown"
+                    class="arrow"
+                    >KURUMSAL</a
+                  >
+                  <div class="nav-dropdown">
+                    <div class="dropdown-content">
+                      <ul class="dropdown-content-ul">
+                        <li>
+                          <a href="index.html">Hakkımızda</a>
+                          <div class="icon"></div>
+                        </li>
+                        <li>
+                          <a href="index.html">Tarihçe</a>
+                          <div class="icon"></div>
+                        </li>
+                        <li>
+                          <a href="index.html">Amacımız</a>
+                          <div class="icon"></div>
+                        </li>
+                        <li>
+                          <a href="index.html">Fotoğraf Galerisi</a>
+                          <div class="icon"></div>
+                        </li>
+                        <li>
+                          <a href="index.html">Yönetim Kurulumuz</a>
+                          <div class="icon"></div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="position-relative">
+                  <a
+                    href="javascript:void(0);"
+                    id="egitim-dropdown"
+                    class="arrow"
+                    >EĞİTİM</a
+                  >
+                  <div class="nav-dropdown">
+                    <div class="dropdown-content">
+                      <ul class="dropdown-content-ul">
+                        <li>
+                          <a href="index.html">Beceri Eğitimleri</a>
+                          <div class="icon"></div>
+                        </li>
+                        <li>
+                          <a href="index.html">Kültürel Geziler</a>
+                          <div class="icon"></div>
+                        </li>
+                        <li>
+                          <a href="index.html">Öğrenci Yurdu</a>
+                          <div class="icon"></div>
+                        </li>
+                        <li>
+                          <a href="index.html">Spor Faliyetleri</a>
+                          <div class="icon"></div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="position-relative">
+                  <a href="javascript:void(0);" id="yurt-dropdown" class="arrow"
+                    >YURT</a
+                  >
+                  <div class="nav-dropdown">
+                    <div class="dropdown-content">
+                      <ul class="dropdown-content-ul">
+                        <li>
+                          <a href="index.html"
+                            >Kestanepazarı Aliağa Kur'an Kursu</a
+                          >
+                          <div class="icon"></div>
+                        </li>
+                        <li>
+                          <a href="index.html"
+                            >Kestanepazarı Hatay Kur'an Kursu</a
+                          >
+                          <div class="icon"></div>
+                        </li>
+                        <li>
+                          <a href="index.html"
+                            >Kestanepazarı Merkez Kur'an Kursu</a
+                          >
+                          <div class="icon"></div>
+                        </li>
+                        <li>
+                          <a href="index.html"
+                            >Kestanepazarı 7-10 Kur'an Kursu</a
+                          >
+                          <div class="icon"></div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li><a href="news-subject.html">HABERLER</a></li>
+                <li><a href="news-subject.html">ETKİNLİKLER</a></li>
+                <li><a href="contact.html">İLETİŞİM</a></li>
+              </ul>
+            </div>
+            <div class="navbar-search m-l-2 search-toggle">
+              <button>
+                <svg
+                  id="katman_2"
+                  data-name="katman 2"
+                  width="30"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                >
+                  <defs>
+                    <style>
+                      .cls-1 {
+                        fill: #fff;
+                        stroke-width: 0;
+                      }
+                    </style>
+                  </defs>
+                  <g id="header">
+                    <path
+                      class="cls-1"
+                      d="M19,20c-.26,0-.51-.1-.71-.29l-4.54-4.53c-1.49,1.18-3.32,1.82-5.25,1.82-2.27,0-4.4-.88-6.01-2.49-1.61-1.61-2.49-3.74-2.49-6.01S.88,4.1,2.49,2.49C4.1.88,6.23,0,8.5,0s4.4.88,6.01,2.49c1.61,1.61,2.49,3.74,2.49,6.01,0,1.94-.64,3.77-1.83,5.27l4.54,4.52c.39.39.39,1.02,0,1.41-.2.2-.45.29-.71.29ZM8.5,2c-1.74,0-3.37.68-4.6,1.9-1.23,1.23-1.9,2.86-1.9,4.6s.68,3.37,1.9,4.6c1.23,1.23,2.86,1.9,4.6,1.9s3.37-.68,4.6-1.9c1.23-1.23,1.9-2.86,1.9-4.6s-.68-3.37-1.9-4.6c-1.23-1.23-2.86-1.9-4.6-1.9Z"
+                    />
+                  </g>
+                </svg>
+              </button>
+            </div>
+            <a href="bagis-sayfasi.html" class="navbar-donation m-l-1"
+              ><button>BAĞIŞ YAP</button></a
+            >
+          </div>
+          <div class="responsive-navbar">
+            <div class="logo">
+              <img src="img/header-logo/header-logo.png" alt="" />
+            </div>
+            <div class="responsive-btns-nav">
+              <div class="search search-toggle">
+                <button>
+                  <img
+                    src="img/icon/search-black.png"
+                    width="25"
+                    height="25"
+                    alt=""
+                  />
+                </button>
+              </div>
+              <div class="menu" id="mobile-toggle-menu">
+                <button>
+                  <img src="img/icon/menu.png" width="40" height="25" alt="" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="mobile-menu" id="mobile-menu">
+          <div class="toggle-x-menu" id="toggle-x-menu">
+            <button>
+              <div class="img"><img src="./img/icon/x.png" alt="" /></div>
+            </button>
+          </div>
+          <div class="content">
+            <div class="menu-list">
+              <ul>
+                <li><a href="#">ANA SAYFA</a></li>
+                <li class="menu-dropdown">
+                  <a href="#"
+                    ><span>KURUMSAL</span>
+                    <span
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-chevron-down"
+                        width="24"
+                        height="24"
+                        stroke-width="2"
+                        stroke="currentColor"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="M0 0h24v24H0z" stroke="none" />
+                        <path d="m6 9 6 6 6-6" /></svg></span
+                  ></a>
+                  <div class="mobile-menu-content">
+                    <ul>
+                      <li><a href="#">Hakkımızda</a></li>
+                      <li><a href="#">Tarihçe</a></li>
+                      <li><a href="#">Fotoğraf Galerisi</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="menu-dropdown">
+                  <a href="#"
+                    ><span>EĞİTİM</span>
+                    <span
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-chevron-down"
+                        width="24"
+                        height="24"
+                        stroke-width="2"
+                        stroke="currentColor"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="M0 0h24v24H0z" stroke="none" />
+                        <path d="m6 9 6 6 6-6" /></svg></span
+                  ></a>
+                  <div class="mobile-menu-content">
+                    <ul>
+                      <li><a href="#">Beceri Eğitimleri</a></li>
+                      <li><a href="#">Spor Faliyetleri</a></li>
+                      <li><a href="#">Kültürel Geziler</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="menu-dropdown">
+                  <a href="#"
+                    ><span>YURT</span>
+                    <span
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-chevron-down"
+                        width="24"
+                        height="24"
+                        stroke-width="2"
+                        stroke="currentColor"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="M0 0h24v24H0z" stroke="none" />
+                        <path d="m6 9 6 6 6-6" /></svg></span
+                  ></a>
+                  <div class="mobile-menu-content">
+                    <ul>
+                      <li><a href="#">Öğrenci Yurdu</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li><a href="#">HABERLER</a></li>
+                <li><a href="#">ETKİNLİKLER</a></li>
+                <li><a href="#">İLETİŞİM</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="search-bar" id="search-bar">
+          <div class="search-input">
+            <input type="text" placeholder="Arama Yapın.." />
+            <div class="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-search"
+                width="24"
+                height="24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M0 0h24v24H0z" stroke="none" />
+                <path d="M3 10a7 7 0 1 0 14 0 7 7 0 1 0-14 0M21 21l-6-6" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="page-top-section m-t-8 p-t-3 p-b-3">
+      <div class="container m-flex-column">
+        <div class="text">
+          <h1 class="title m-b-3">Genel Bağış</h1>
+          <div class="subtitle">Genel Bağış Açıklama</div>
+        </div>
+        <div class="img">
+          <img
+            src="img/general/page-top-img.png"
+            width="310"
+            height="250"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <section class="bg-light-gray donation-block">
+      <div class="container">
+        <div
+          class="d-flex row align-items-start m-t-5 justify-content-center m-flex-column"
+        >
+          <div class="col-3 d-flex flex-column p-r-1-5 mini-mw-100">
+            <div class="donation-card">
+              <div class="top">
+                <div class="icon">
+                  <img
+                    src="img/icon/genel-bagis.svg"
+                    width="100"
+                    height="100"
+                    alt=""
+                  />
+                </div>
+                <div class="title">Adak Kurbanı (Küçükbaş)</div>
+              </div>
+              <div class="bottom h-auto">
+                <div class="input-box">
+                  <span>Hisse Sayısı</span>
+                  <div class="counter">
+                    <button class="decrement">-</button>
+                    <input type="number" placeholder="1" class="count" />
+                    <button class="increment">+</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="input-box type-2 m-t-2">
+              <input type="number" placeholder="18,000" />
+              <div class="icon"><img src="img/icon/tl.png" alt="" /></div>
+            </div>
+            <div class="accordion m-b-2 m-t-2 active">
+              <div class="box type-2 accordion-head bg-orange">
+                <span>1.Adak Bilgileri</span>
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-chevron-down"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M6 9l6 6l6 -6" />
+                  </svg>
+                </div>
+              </div>
+              <div class="accordion-content active">
+                <div class="input-box type-2 m-t-1">
+                  <input type="text" placeholder="Barış Yılmaz" />
+                  <div class="icon">
+                    <img src="img/icon/person.png" alt="" />
+                  </div>
+                </div>
+                <div class="input-box type-2 m-t-1">
+                  <input type="mail" placeholder="E-Posta Adresi" />
+                  <div class="icon">
+                    <img src="img/icon/message.png" alt="" />
+                  </div>
+                </div>
+                <div class="input-box type-2 m-t-1">
+                  <input type="tel" placeholder="Telefon Numaranız" />
+                  <div class="icon">
+                    <img src="img/icon/phone.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion m-b-2">
+              <div class="box type-2 accordion-head bg-blue">
+                <span>2.Adak Bilgileri</span>
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-chevron-down"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M6 9l6 6l6 -6" />
+                  </svg>
+                </div>
+              </div>
+              <div class="accordion-content">
+                <div class="input-box type-2 m-t-1">
+                  <input type="text" placeholder="Barış Yılmaz" />
+                  <div class="icon">
+                    <img src="img/icon/person.png" alt="" />
+                  </div>
+                </div>
+                <div class="input-box type-2 m-t-1">
+                  <input type="mail" placeholder="E-Posta Adresi" />
+                  <div class="icon">
+                    <img src="img/icon/message.png" alt="" />
+                  </div>
+                </div>
+                <div class="input-box type-2 m-t-1">
+                  <input type="tel" placeholder="Telefon Numaranız" />
+                  <div class="icon">
+                    <img src="img/icon/phone.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion m-b-2">
+              <div class="box type-2 accordion-head bg-blue">
+                <span>3.Adak Bilgileri</span>
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-chevron-down"
+                    width="24"
+                    height="24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M0 0h24v24H0z" stroke="none" />
+                    <path d="m6 9 6 6 6-6" />
+                  </svg>
+                </div>
+              </div>
+              <div class="accordion-content">
+                <div class="input-box type-2 m-t-1">
+                  <input type="text" placeholder="Barış Yılmaz" />
+                  <div class="icon">
+                    <img src="img/icon/person.png" alt="" />
+                  </div>
+                </div>
+                <div class="input-box type-2 m-t-1">
+                  <input type="mail" placeholder="E-Posta Adresi" />
+                  <div class="icon">
+                    <img src="img/icon/message.png" alt="" />
+                  </div>
+                </div>
+                <div class="input-box type-2 m-t-1">
+                  <input type="tel" placeholder="Telefon Numaranız" />
+                  <div class="icon">
+                    <img src="img/icon/phone.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box type-2 bg-green submit-btn m-b-2">
+              <button>BAĞIŞ YAP</button>
+            </div>
+          </div>
+          <div class="or"><span>VEYA</span></div>
+          <div
+            class="col-3 d-flex flex-column mini-m-0 p-r-1-5 m-b-5 mini-mw-100"
+          >
+            <div class="donation-card">
+              <div class="top">
+                <div class="icon">
+                  <img
+                    src="img/icon/genel-bagis.svg"
+                    width="100"
+                    height="100"
+                    alt=""
+                  />
+                </div>
+                <div class="title">Adak Kurbanı (Büyükbaş)</div>
+              </div>
+              <div class="bottom h-auto">
+                <div class="input-box">
+                  <span class="">Hisse Sayısı</span>
+                  <div class="counter">
+                    <button class="decrement">-</button>
+                    <input type="text" placeholder="1" class="count" />
+                    <button class="increment">+</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="input-box type-2 m-t-2">
+              <input type="number" placeholder="18,000" />
+              <div class="icon"><img src="img/icon/tl.png" alt="" /></div>
+            </div>
+            <div class="accordion m-t-2 active">
+              <div class="box type-2 accordion-head bg-blue">
+                <span>1.Hissedar Bilgileri</span>
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-chevron-down"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M6 9l6 6l6 -6" />
+                  </svg>
+                </div>
+              </div>
+              <div class="accordion-content active">
+                <div class="input-box type-2 m-t-1">
+                  <input type="text" placeholder="Barış Yılmaz" />
+                  <div class="icon">
+                    <img src="img/icon/person.png" alt="" />
+                  </div>
+                </div>
+                <div class="input-box type-2 m-t-1">
+                  <input type="mail" placeholder="E-Posta Adresi" />
+                  <div class="icon">
+                    <img src="img/icon/message.png" alt="" />
+                  </div>
+                </div>
+                <div class="input-box type-2 m-t-1">
+                  <input type="tel" placeholder="Telefon Numaranız" />
+                  <div class="icon">
+                    <img src="img/icon/phone.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion m-b-2">
+              <div class="box type-2 accordion-head m-t-2 bg-orange">
+                <span>2. Hissedar Bilgileri</span>
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-chevron-down"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M6 9l6 6l6 -6" />
+                  </svg>
+                </div>
+              </div>
+              <div class="accordion-content">
+                <div class="input-box type-2 m-t-1">
+                  <input type="text" placeholder="Barış Yılmaz" />
+                  <div class="icon">
+                    <img src="img/icon/person.png" alt="" />
+                  </div>
+                </div>
+                <div class="input-box type-2 m-t-1">
+                  <input type="text" placeholder="E-Posta Adresi" />
+                  <div class="icon">
+                    <img src="img/icon/message.png" alt="" />
+                  </div>
+                </div>
+                <div class="input-box type-2 m-t-1">
+                  <input type="text" placeholder="Telefon Numaranız" />
+                  <div class="icon">
+                    <img src="img/icon/phone.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion m-b-2">
+              <div class="box type-2 accordion-head bg-blue">
+                <span>3.Hissedar Bilgileri</span>
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-chevron-down"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M6 9l6 6l6 -6" />
+                  </svg>
+                </div>
+              </div>
+              <div class="accordion-content">
+                <div class="input-box type-2 m-t-1">
+                  <input type="text" placeholder="Barış Yılmaz" />
+                  <div class="icon">
+                    <img src="img/icon/person.png" alt="" />
+                  </div>
+                </div>
+                <div class="input-box type-2 m-t-1">
+                  <input type="mail" placeholder="E-Posta Adresi" />
+                  <div class="icon">
+                    <img src="img/icon/message.png" alt="" />
+                  </div>
+                </div>
+                <div class="input-box type-2 m-t-1">
+                  <input type="tel" placeholder="Telefon Numaranız" />
+                  <div class="icon">
+                    <img src="img/icon/phone.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion m-b-2">
+              <div class="box type-2 accordion-head bg-blue">
+                <span>4.Hissedar Bilgileri</span>
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-chevron-down"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M6 9l6 6l6 -6" />
+                  </svg>
+                </div>
+              </div>
+              <div class="accordion-content">
+                <div class="input-box type-2 m-t-1">
+                  <input type="text" placeholder="Barış Yılmaz" />
+                  <div class="icon">
+                    <img src="img/icon/person.png" alt="" />
+                  </div>
+                </div>
+                <div class="input-box type-2 m-t-1">
+                  <input type="mail" placeholder="E-Posta Adresi" />
+                  <div class="icon">
+                    <img src="img/icon/message.png" alt="" />
+                  </div>
+                </div>
+                <div class="input-box type-2 m-t-1">
+                  <input type="tel" placeholder="Telefon Numaranız" />
+                  <div class="icon">
+                    <img src="img/icon/phone.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box type-2 bg-green submit-btn">
+              <button>BAĞIŞ YAP</button>
+            </div>
+          </div>
+          <div class="right-arrow">
+            <div class="img">
+              <img
+                src="img/icon/right-arrow.png"
+                width="35"
+                height="90"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-3 d-flex flex-column p-r-1-5 m-b-5 mini-mw-100">
+            <div class="input-box type-2">
+              <input type="text" placeholder="Kredi Kartı Sahibi" />
+              <div class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="icon icon-tabler icon-tabler-currency-lira"
+                  width="24"
+                  height="24"
+                  stroke-width="2"
+                  stroke="#003D82"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M0 0h24v24H0z" stroke="none" />
+                  <path d="M10 5v15a7 7 0 0 0 7-7M6 15l8-4M14 7l-8 4" />
+                </svg>
+              </div>
+            </div>
+            <div class="input-box type-2 m-t-2">
+              <input
+                type="number"
+                maxlength="16"
+                placeholder="1234 12332 1241 1241"
+              />
+              <div class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="icon icon-tabler icon-tabler-currency-lira"
+                  width="24"
+                  height="24"
+                  stroke-width="2"
+                  stroke="#003D82"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M0 0h24v24H0z" stroke="none" />
+                  <path d="M10 5v15a7 7 0 0 0 7-7M6 15l8-4M14 7l-8 4" />
+                </svg>
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="input-box col-8 type-2 m-t-2">
+                <input type="month" placeholder="Son Kullanım Tarihi" />
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-currency-lira"
+                    width="24"
+                    height="24"
+                    stroke-width="2"
+                    stroke="#003D82"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M0 0h24v24H0z" stroke="none" />
+                    <path d="M10 5v15a7 7 0 0 0 7-7M6 15l8-4M14 7l-8 4" />
+                  </svg>
+                </div>
+              </div>
+              <div class="input-box col-4 m-l-1 type-2 m-t-2">
+                <input
+                  type="number"
+                  maxlength="3"
+                  placeholder="CVV No"
+                  class="w-75"
+                />
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-currency-lira"
+                    width="24"
+                    height="24"
+                    stroke-width="2"
+                    stroke="#003D82"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M0 0h24v24H0z" stroke="none" />
+                    <path d="M10 5v15a7 7 0 0 0 7-7M6 15l8-4M14 7l-8 4" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="input-box textarea type-2 m-t-2">
+              <textarea
+                type="text"
+                resize
+                placeholder="Derneğimize İletmek İstediğiniz Mesajınız"
+              ></textarea>
+              <div class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="icon icon-tabler icon-tabler-currency-lira"
+                  width="24"
+                  height="24"
+                  stroke-width="2"
+                  stroke="#003D82"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M0 0h24v24H0z" stroke="none" />
+                  <path d="M10 5v15a7 7 0 0 0 7-7M6 15l8-4M14 7l-8 4" />
+                </svg>
+              </div>
+            </div>
+            <div class="d-flex flex-column m-b-2">
+              <div class="checkbox d-flex align-items-center w-100 m-t-2">
+                <input
+                  type="checkbox"
+                  id="onay1"
+                  name="renk[]"
+                  value="kirmizi"
+                />
+                <label for="onay1"
+                  >KVKK Kapsamında kişisel verilerimin kayıt edilmesini
+                  onaylıyorum.
+                  <a href="#" class="color-orange">KVKK Bilgi</a></label
+                >
+              </div>
+              <div class="checkbox d-flex align-items-center w-100 m-t-1">
+                <input
+                  type="checkbox"
+                  id="onay2"
+                  name="renk[]"
+                  value="kirmizi"
+                />
+                <label for="onay2"
+                  >Bilgilendirme amaçlı E-Posta almak istiyorum</label
+                >
+              </div>
+              <div class="checkbox d-flex align-items-center w-100 m-t-1">
+                <input
+                  type="checkbox"
+                  id="onay3"
+                  name="renk[]"
+                  value="kirmizi"
+                />
+                <label for="onay3"
+                  >Bilgilendirme amaçlı SMS almak istiyorum</label
+                >
+              </div>
+            </div>
+            <div class="box type-2 bg-green submit-btn">
+              <button>ÖDEME YAP</button>
+            </div>
+          </div>
+          <div class="bagis-kabul-box col-6 d-none mini-mw-100">
+            <h1 class="title m-b-2 d-flex align-items-center flex-column">
+              <span class="color-orange">Allah (c.c) </span
+              ><span>Bağışınızı Kabul Etsin</span>
+            </h1>
+            <div class="table">
+              <div class="thead">
+                <div class="th col-4">Bağış Türü</div>
+                <div class="th col-4">Bağışçı Bilgisi</div>
+                <div class="th text-right">Tutar</div>
+              </div>
+              <div class="tbody">
+                <div class="tr col-4">
+                  Adak Kurbanı (Büyükbaş) 1. Hissedar Bilgileri
+                </div>
+                <div class="tr col-4">
+                  Barış Yılmaz 0(532)684 71 01 baris@b3dp.com
+                </div>
+                <div class="tr text-right">₺11,111</div>
+              </div>
+              <div class="tbody">
+                <div class="tr col-4">
+                  Adak Kurbanı (Büyükbaş) 1. Hissedar Bilgileri
+                </div>
+                <div class="tr col-4">
+                  Barış Yılmaz 0(532)684 71 01 baris@b3dp.com
+                </div>
+                <div class="tr text-right">₺11,111</div>
+              </div>
+              <div class="tbody">
+                <div class="tr col-4">
+                  Adak Kurbanı (Büyükbaş) 1. Hissedar Bilgileri
+                </div>
+                <div class="tr col-4">
+                  Barış Yılmaz 0(532)684 71 01 baris@b3dp.com
+                </div>
+                <div class="tr text-right">₺11,111</div>
+              </div>
+              <div class="tbody">
+                <div class="tr col-4">
+                  Adak Kurbanı (Büyükbaş) 1. Hissedar Bilgileri
+                </div>
+                <div class="tr col-4">
+                  Barış Yılmaz 0(532)684 71 01 baris@b3dp.com
+                </div>
+                <div class="tr text-right">₺11,111</div>
+              </div>
+            </div>
+            <div class="note">
+              Bilgilendirme amaçlı E-Posta almak
+              <span class="color-orange">istiyorsunuz.</span> (eposta adresi)
+            </div>
+            <div class="note">
+              Bilgilendirme amaçlı SMS almak
+              <span class="color-orange">istiyorsunuz.</span> (tel no)
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-blue w-100 text-blue-block">
+      <div class="container">
+        <div
+          class="d-flex flex-column m-t-9 m-b-9 align-center justify-content-center"
+        >
+          <h2 class="title">
+            Tertemiz yavrularımıza Kitabullah'ı nakşediyoruz...
+          </h2>
+          <div class="sub-title">
+            <div>
+              Hz. Osman ibni Affan (R.A)’dan rivayet olunur ki; Rasûlullah
+              (S.A.V) şöyle buyurdu:
+            </div>
+            <div>
+              “Sizin en hayırlınız Kur’anı öğrenen ve öğretendir.” Tirmizî,
+              Fedâilü'l-Kur'ân, 15.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about bg-light-gray">
+      <div class="container">
+        <div class="block-head m-t-5 m-b-2">
+          <h2 class="title m-0">
+            <span>Hafızların Yuvası</span>
+            <span class="bg-orange">Kestane Pazarı</span>
+          </h2>
+          <a href="#" class="link m-l-auto">Bizi Tanıyın...</a>
+        </div>
+        <div class="text">
+          <div class="descp text-center">
+            Kestanepazarı; Kurra Hafız Salih Tanrıbuyruğu Hocamız tarafından yüz
+            yılı aşkın süre önce temeli atılmış, o günün şartlarında hedefi
+            Allah’ın dinini öğretmek ve öğrenmek olan bir kuruluştur. Derneğimiz
+            bugün de, bu çizgiden ayrılmadan, gelişen ve değişen şartlarda, aynı
+            gayeyle yoluna devam etmekte, aynı heyecan ve coşkuyu yüreklerinde
+            hissetmektedir.
+          </div>
+          <div class="img">
+            <img
+              class="w-100"
+              src="img/general/hisar.png"
+              height="217"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="link responsive">
+          <a href="#" class="color-orange">Bizi Tanıyın...</a>
+        </div>
+      </div>
+    </section>
+    <section class="info bg-orange">
+      <div class="container">
+        <div class="d-flex align-items-center m-flex-column w-100 m-t-2 m-b-2">
+          <div class="title m-l-8 w-100">
+            Sorularınız için lütfen bizimle iletişim kurun
+          </div>
+          <div class="contact m-l-auto">
+            <div class="tel text-right">
+              <a href="tel:444 9 232">444 9 232</a>
+            </div>
+            <div class="mail text-right">
+              <a href="#">bilgi@kestanepazari.org.tr</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="footer">
+      <div class="container">
+        <div class="footer-top m-flex-column">
+          <div class="footer-block">
+            <div class="img"><img src="img/logo/logo-1.png" alt="" /></div>
+            <div class="text">
+              Kestanepazarı’nın amacı, Kur’an-ı Kerim’i anlayabilecek, dini
+              kaynak metinlere bakabilecek, ihsan duygusu taşıyan nesillerle;
+              Kur’an-ı Kerim’i en güzel okuyan hafızlar yetiştirmektir.
+              Kestanepazarı, Kur’an ve Sünnet doğrultusunda ilim adamları
+              yetiştiren bir kurumdur.
+            </div>
+          </div>
+          <div class="footer-block">
+            <div class="title">KURUMSAL</div>
+            <div class="footer-block-list">
+              <ul>
+                <li><a href="#">Hakkımızda</a></li>
+                <li><a href="#">Tarihçe</a></li>
+                <li><a href="#">Amacımız</a></li>
+                <li><a href="#">Fotoğraf Galerisi</a></li>
+                <li><a href="#">Yönetim Kurulumuz</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-block">
+            <div class="title">EĞİTİM/ÖĞRETİM</div>
+            <div class="footer-block-list">
+              <ul>
+                <li><a href="#">Beceri Eğitimleri</a></li>
+                <li><a href="#">Kültürel Geziler</a></li>
+                <li><a href="#">Öğrenci Yurdu</a></li>
+                <li><a href="#">Spor Faliyetleri</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-block">
+            <div class="title">KUR'AN KURSLARI</div>
+            <div class="footer-block-list">
+              <ul>
+                <li><a href="#">Kestanepazarı Aliağa Kur'an Kursu</a></li>
+                <li><a href="#">Kestanepazarı Hatay Kur'an Kursu</a></li>
+                <li><a href="#">Kestanepazarı Merkez Kur'an Kursu</a></li>
+                <li><a href="#">Kestanepazarı 7-10 Yaş Kur'an Kursu</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-block">
+            <div class="title">ONLİNE BAĞIŞ</div>
+            <div class="footer-block-list">
+              <ul>
+                <li><a href="#">Adak</a></li>
+                <li><a href="#">Bir Öğrenci Okut!</a></li>
+                <li>
+                  <a href="#">Bir Öğrencinin Günlük İhtiyacını Karşıla</a>
+                </li>
+                <li><a href="#">Ekmek (Bir Günlük)</a></li>
+                <li><a href="#">Genel Bağış</a></li>
+                <li><a href="#">Zekat</a></li>
+                <li><a href="#">Banka Hesaplarımız</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom bg-dark-blue m-t-4">
+        <div class="container">
+          <div class="text">
+            <span>© 2024 - Tüm Hakları Saklıdır</span>
+            <span>Kestanepazarı Öğrenci Yetiştirme Derneği</span>
+          </div>
+          <div class="logo m-l-auto">
+            <div class="img"><img src="img/logo/footer-logo.png" alt="" /></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="js/lib.js?v=1177fbc8b86bb4cc1ceb1605a54edf94"
+      type="module"
+    ></script>
+    <script src="js/main.js?v=1177fbc8b86bb4cc1ceb1605a54edf94"></script>
+  </body>
+</html>
