@@ -14,7 +14,7 @@ Cpanel: https://213.238.181.63:2083
 
 kestanepazariorg
 
-.Kestane35,,
+jijxuk-jacfo7-cirpIv
 
 **MySQL**
 
